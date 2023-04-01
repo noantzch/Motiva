@@ -1,4 +1,3 @@
-
 import React from "react";
 import quienes from "./images/quienes.png";
 import perrito1 from "./images/perrito.png";
