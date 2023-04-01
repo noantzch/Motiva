@@ -37,7 +37,7 @@ const Footer = () => {
             <img src={ig} alt="" />
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=5492216429731"
+            href="https://api.whatsapp.com/send?phone=541149459525"
             target="_blank"
           >
             <img src={wsp} alt="" />
