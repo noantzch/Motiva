@@ -8,9 +8,6 @@ import capacitaciones4 from "../img-logos/capacitaciones4.jpg";
 import capacitaciones5 from "../img-logos/capacitaciones5.jpg";
 import cursoCapacitacionTAP from "../img-logos/Curso-Capacitación-TAP.pdf";
 
-
-
-
 function Capacitaciones() {
   return (
     <div>
@@ -18,10 +15,16 @@ function Capacitaciones() {
         <div className="capacitaciones-texto-1">
           <h2>Capacitaciones</h2>
           <p>
-          Desde Motiva ofrecemos una capacitación TAP (Terapias Asistidas con Perros) donde abordamos los beneficios de este tipo de terapia, el lenguaje canino, el vínculo terapéutico, los tipos de abordajes posibles y las distintas poblaciones con las que se trabaja.
+            Desde Motiva ofrecemos una capacitación TAP (Terapias Asistidas con
+            Perros) donde abordamos los beneficios de este tipo de terapia, el
+            lenguaje canino, el vínculo terapéutico, los tipos de abordajes
+            posibles y las distintas poblaciones con las que se trabaja.
           </p>
           <p>
-            Para mas información pueden encontrar el temario completo en <a href={cursoCapacitacionTAP} download>este link</a>
+            Para mas información pueden encontrar el temario completo en{" "}
+            <a href={cursoCapacitacionTAP} download>
+              este link
+            </a>
           </p>
         </div>
         <div>
@@ -102,7 +105,7 @@ function Capacitaciones() {
       <div className="capacitaciones-img2">
         <img src={capacitaciones5} alt="" />
       </div>
-      <div className="capacitaciones-div-h2-1" >
+      <div className="capacitaciones-div-h2-1">
         <h2 className="capacitaciones-h2-1">
           Para sumarte a nuestras capacitaciones y charlas escribinos a través
           de <Link to={"/contacto"}>nuestros medios de contacto</Link>

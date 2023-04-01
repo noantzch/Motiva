@@ -9,113 +9,54 @@ import { NavLink } from "react-router-dom";
 
 const Navbar2 = () => {
   return (
-    <>
-      <div className="div-navbar">
-        {/*       <Navbar bg="light" expand="lg">
-      <Container>
-        <div>
-          <img className="logo-navbar" src={logo} alt="logo motiva terapias" />
-          <p className="texto-motiva">Motiva</p>
+    <Navbar collapseOnSelect expand="lg" id="navbarc">
+      <Container id="div-nav">
+        <div className="div-logo-motiva">
+          <NavLink to="/">
+            <Navbar.Brand href="#home" className="nav-img">
+              <img src={logo} alt="" />
+              Motiva
+            </Navbar.Brand>
+          </NavLink>
         </div>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="me-auto">
-          <div className="navbar-texto">
-          <Nav.Link>
-            <div>
-              <img className="patita-animacion" src={patita} alt="" />
-              <a className="texto-navbar" href="">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav menuu" />
+
+        <Navbar.Collapse id="responsive-navbar-nav menuu">
+          <Nav id="nav-links">
+            <div className="nav-logo-link">
+              <img id="img-logo" src={patita} alt="patita png" />
+              <NavLink to="/" className="nav-li">
                 Home
-              </a>
+              </NavLink>
             </div>
-            </Nav.Link>
-            <Nav.Link>
-            <div>
-              <img className="patita-animacion" src={patita} alt="" />
-              <a className="texto-navbar" href="">
+            <div className="nav-logo-link">
+              <img id="img-logo" src={patita} alt="patita png" />
+              <NavLink className="nav-li" to="/quienes-somos">
                 Quienes somos
-              </a>
+              </NavLink>
             </div>
-            </Nav.Link>
-            <Nav.Link>
-            <div>
-              <img className="patita-animacion" src={patita} alt="" />
-              <a className="texto-navbar" href="">
+            <div className="nav-logo-link">
+              <img id="img-logo" src={patita} alt="patita png" />
+              <NavLink className="nav-li" to="/terapias">
                 Terapias
-              </a>
+              </NavLink>
             </div>
-            </Nav.Link>
-            <Nav.Link>
-            <div>
-              <img className="patita-animacion" src={patita} alt="" />
-              <a className="texto-navbar" href="">
+            <div className="nav-logo-link">
+              <img id="img-logo" src={patita} alt="patita png" />
+              <NavLink className="nav-li" to="/capacitaciones">
                 Capacitaciones
-              </a>
+              </NavLink>
             </div>
-            </Nav.Link>
-            <Nav.Link>
-            <div>
-              <img className="patita-animacion" src={patita} alt="" />
-              <a className="texto-navbar" href="">
+            <div className="nav-logo-link">
+              <img id="img-logo" src={patita} alt="patita png" />
+              <NavLink className="nav-li" to="/contacto">
                 Contacto
-              </a>
+              </NavLink>
             </div>
-            </Nav.Link>
-          </div>
           </Nav>
         </Navbar.Collapse>
-        </Container>
-        </Navbar> */}
-
-        <Navbar expand="lg">
-          <Container className="navbar-2">
-            <div>
-              <img
-                className="logo-navbar"
-                src={logo}
-                alt="logo motiva terapias"
-              />
-              <p className="texto-motiva">Motiva</p>
-            </div>
-            
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-                <NavLink to="/" className="navlink">
-                  <img className="patita-animacion" src={patita} alt="" />
-                  <NavLink className="texto-navbar">Home</NavLink>
-                </NavLink>
-                <NavLink className="navlink">
-                  <img className="patita-animacion" src={patita} alt="" />
-                  <NavLink to="/quienes-somos" className="texto-navbar">
-                    Quienes somos
-                  </NavLink>
-                </NavLink>
-                <NavLink className="navlink">
-                  <img className="patita-animacion" src={patita} alt="" />
-                  <NavLink to="/terapias" className="texto-navbar">
-                    Terapias
-                  </NavLink>
-                </NavLink>
-                <NavLink className="navlink">
-                  <img className="patita-animacion" src={patita} alt="" />
-                  <NavLink to="/capacitaciones" className="texto-navbar">
-                    Capacitaciones
-                  </NavLink>
-                </NavLink>
-                <NavLink className="navlink">
-                  <img className="patita-animacion" src={patita} alt="" />
-                  <NavLink to="/contacto" className="texto-navbar">
-                    Contacto
-                  </NavLink>
-                </NavLink>
-              </Nav>
-            </Navbar.Collapse>
-            
-          </Container>
-        </Navbar>
-      </div>
-    </>
+      </Container>
+    </Navbar>
   );
 };
 

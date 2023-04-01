@@ -4,6 +4,9 @@ import Footer from "./components/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import QuienesSomos from "./components/QuienesSomos";
 import Capacitaciones from "./components/Capacitaciones";
+import Servicios from "./components/servicios";
+import Contacto from "./components/contacto";
+import { Bienvenida } from "./components/bienvenida";
 
 function App() {
   return (
@@ -16,8 +19,11 @@ function App() {
         </header>
         <main>
           <Routes>
+            <Route path="/" element={<Bienvenida />} />
             <Route path="/quienes-somos" element={<QuienesSomos />} />
             <Route path="/capacitaciones" element={<Capacitaciones />} />
+            <Route path="/terapias" element={<Servicios />} />
+            <Route path="/contacto" element={<Contacto />} />
           </Routes>
         </main>
         <footer>
