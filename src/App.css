@@ -655,7 +655,7 @@ h3{
   display: flex !important;
   flex-direction: row !important;
   justify-content: center !important;
-  align-items: center !important;
+  align-items: flex-start !important;
   flex-wrap: wrap !important;
 }
 .cardContainer{
@@ -1023,4 +1023,27 @@ p{
       font-size: 1.4em !important;
       padding: 1em !important;
   }
+  .div-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-texto-div{
+    margin: 0;
+  }
+  .navbar-toggler{
+    width: 3em;
+  }
+  #div-nav{
+    display: flex;
+    flex-direction: row;
+  }
+  #nav-links{
+    align-items: center;
+  }
+  p{
+    font-size: 22.4px !important;
+  }
 }
+
+

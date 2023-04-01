@@ -29,7 +29,9 @@ const Contacto = () => {
       <div className="containerVias">
         <div className="vias">
           <div className="containerIcon">
-            <AiOutlineWhatsApp className="redesIcon" />
+            <a href="mailto:motivaterapia@gmail.com">
+              <AiOutlineMail className="redesIcon" />
+            </a>
           </div>
           <br></br>
           <h4 className="titulosActive">Por Email</h4>
@@ -38,11 +40,17 @@ const Contacto = () => {
             Contáctanos por mail <br></br> cuando y donde estés
           </p>
           <br></br>
-          <button className="btn btn-primary">Contactar</button>
+          <a href="mailto:motivaterapia@gmail.com">
+            <button className="btn btn-primary">Contactar</button>
+          </a>
         </div>
         <div className="vias">
           <div className="containerIcon">
-            <AiOutlineMail className="redesIcon" />
+            <a href="https://api.whatsapp.com/send?phone=541149459525"
+            target="_blank" rel="noreferrer">
+
+            <AiOutlineWhatsApp className="redesIcon"></AiOutlineWhatsApp>
+            </a>
           </div>
           <br></br>
           <h4 className="titulosActive">Por Whatsapp</h4>
@@ -52,14 +60,17 @@ const Contacto = () => {
             chateá <br></br>con nosotras
           </p>
           <br></br>
-          <button className="btn btn-primary">Mensaje directo</button>
+          <a href="https://api.whatsapp.com/send?phone=541149459525"
+            target="_blank" rel="noreferrer">
+            <button className="btn btn-primary">Mensaje directo</button>
+          </a>
         </div>
       </div>
       <h4 className="titulosActive textoCentrado">
         Nuestra Ubicación aproximada
       </h4>
       <Map />
-
+    <br></br><br></br>
       <div class="siguenos">
         <hr className="title-line"></hr>
         <h3 class="titulosActive textoCentrado">Siguenos en redes</h3>
@@ -69,13 +80,17 @@ const Contacto = () => {
       <div className="siguenosIcons">
         <div className="siguenosRedS">
           <div className="containerIcon">
-            <AiFillFacebook className="redesIcon" />
+            <a href='https://www.facebook.com/motiva.tacp' target='_blanck'>
+              <AiFillFacebook className="redesIcon" />
+            </a>
           </div>
           <p className="titulosActive">/motiva.tacp</p>
         </div>
         <div className="siguenosRedS">
           <div className="containerIcon">
-            <AiOutlineInstagram className="redesIcon" />
+            <a href='https://www.instagram.com/motiva.terapias/' target='_blanck'>
+              <AiOutlineInstagram className="redesIcon" />
+            </a>
           </div>
           <p className="titulosActive">@motiva.terapias</p>
         </div>

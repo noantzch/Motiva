@@ -61,7 +61,7 @@ function QuienesSomos() {
           <h3>Jime Tarcetti</h3>
           <p>Lic. en Psicología y Psicopedagogía</p>
           <div className="quienessomos-a">
-            <a href="google.com">Consultar Cv</a>
+            <a href="https://drive.google.com/drive/my-drive?hl=es" target="_blank" rel="noreferrer">Consultar Cv</a>
           </div>
         </div>
         <div className="quienessomos-card">
@@ -69,7 +69,7 @@ function QuienesSomos() {
           <h3>Rochi Rico</h3>
           <p>Lic. en Psicopedagogía</p>
           <div className="quienessomos-a">
-            <a href="google.com">Consultar Cv</a>
+            <a href="https://drive.google.com/drive/my-drive?hl=es" target="_blank" rel="noreferrer">Consultar Cv</a>
           </div>
         </div>
       </div>

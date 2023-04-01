@@ -93,12 +93,7 @@ export const Bienvenida = () => {
             ></img>
             <h2 className="titulos3 textoCentrado">Psicología</h2>
             <p className="textoCentrado">
-              Se suele definir a la psicología como el estudio de los procesos
-              mentales, las sensaciones, las percepciones y el comportamiento de
-              un sujeto, más específicamente sobre las causas del mismo. En
-              nuestro espacio pensamos a la psicología desde lo vincular. La
-              psicología estudia la manera de vincularnos con el otro. Se
-              pretende crear un ....
+            Ayuda a los niños y jóvenes a superar dificultades emocionales y conductuales, y a desarrollar habilidades y herramientas para enfrentar los desafíos de la vida diaria.
             </p>
           </div>
           <div className="cardContainer">
@@ -123,9 +118,8 @@ export const Bienvenida = () => {
             ></img>
             <h2 className="titulos3 textoCentrado">Terapia Ocupacional</h2>
             <p className="textoCentrado">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              sed hendrerit felis, et ornare nisi. Quisque et nunc vel metus
-              pellentesque molestie at ac justo.{" "}
+            Consiste en el uso terapéutico de las actividades de cuidado, trabajo y juego para incrementar la independencia funcional y prevenir la incapacidad; puede incluir la adaptación de tareas o del entorno para alcanzar la máxima independencia y aumentar la calidad de vida.
+{" "}
             </p>
           </div>
         </div>
@@ -142,19 +136,10 @@ export const Bienvenida = () => {
           <h3>Capacitaciones</h3>
           <br></br>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed
-            hendrerit felis, et ornare nisi. Quisque et nunc vel metus
-            pellentesque molestie at ac justo. Pellentesque varius volutpat
-            libero egestas volutpat. Vestibulum malesuada lorem ac laoreet
-            consequat. Aenean vel justo vulputate, cursus nunc ac, facilisis
-            nisl.
+          Desde Motiva ofrecemos una capacitación TAP (Terapias Asistidas con Perros) donde abordamos los beneficios de este tipo de terapia, el lenguaje canino, el vínculo terapéutico, los tipos de abordajes posibles y las distintas poblaciones con la que se trabaja.
           </p>
           <br></br>
-          <p>
-            Pellentesque varius volutpat libero egestas volutpat. Vestibulum
-            malesuada lorem ac laoreet consequat. Aenean vel justo vulputate,
-            cursus nunc ac, facilisis nisl.
-          </p>
+
           <br></br>
           <button
             className="btn btn-primary textoCentrado "
@@ -269,8 +254,7 @@ export const Bienvenida = () => {
         </div>
         <div className="preFooterB">
           <h3 className="titulos3 textoCentrado">
-            “Nos enorgullece haber podido ayudar a tantas personas a mejorar su
-            calidad de vida. Amamos lo que hacemos, y ...”
+          “Los perros son increíbles compañeros en la terapia, nos enseñan la importancia del amor incondicional y nos ayudan a sanar desde el corazón”
           </h3>
           <br></br>
           <img alt="JimeYRochi" src={jimeyorochi}></img>

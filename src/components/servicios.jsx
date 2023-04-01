@@ -124,23 +124,13 @@ const Servicios = () => {
           <br></br>
           <div className="textoServiciosDesktop">
             <p>
-              Se suele definir a la psicología como el estudio de los procesos
-              mentales, las sensaciones, las percepciones y el comportamiento de
-              un sujeto, más específicamente sobre las causas del mismo.
+            La psicopedagogía se centra en el estudio de un sujeto en situación de aprendizaje, en cualquier etapa de la vida. Además del estudio de los procesos de desarrollo cognitivo (durante todas las etapas de la vida del individuo), la psicopedagogía tiene tres objetivos prioritarios dentro de la práctica: la prevención, la detección y la intervención de las dificultades de aprendizaje de un individuo.
             </p>
             <br></br>
             <p>
-              En nuestro espacio pensamos a la psicología desde lo vincular. La
-              psicología estudia la manera de vincularnos con el otro. Se
-              pretende crear un espacio donde los pacientes puedan desplegar su
-              ser y descubramos juntos todo lo que hay por desarrollar.{" "}
+            El proceso de aprendizaje definido en sentido amplio es aquel que incluye el conjunto de factores que inciden en las particularidades de la relación de un sujeto con el mundo cuando integra e incorpora conocimientos. No se circunscribe exclusivamente al aprendizaje escolar sino a la manera individual de procesar el conocimiento, condicionada por la capacidad subjetiva para instrumentarlas y transformarla{" "}
             </p>
             <br></br>
-            <p>
-              Es un espacio de comunicación, de escucha, de mirada, de
-              contención y construcción de andamiajes, convirtiéndose así en una
-              plataforma de despliegue.
-            </p>
           </div>
 
           <div className="textoServiciosMobile">
@@ -154,10 +144,7 @@ const Servicios = () => {
                 aria-controls="multiCollapseExample1"
               >
                 <p>
-                  Se suele definir a la psicología como el estudio de los
-                  procesos mentales, las sensaciones, las percepciones y el
-                  comportamiento de un sujeto, más específicamente sobre las
-                  causas del mismo.
+                La psicopedagogía se centra en el estudio de un sujeto en situación de aprendizaje, en cualquier etapa de la vida. Además del estudio de los procesos de desarrollo cognitivo (durante todas las etapas de la vida del individuo), la psicopedagogía tiene tres objetivos prioritarios dentro de la práctica: la prevención, la detección y la intervención de las dificultades de aprendizaje de un individuo
                   <br></br>
                   <p className="textoCentrado btnShow myButton">
                     <AiFillCaretDown />
@@ -173,18 +160,9 @@ const Servicios = () => {
                 >
                   <div className="normalText">
                     <p>
-                      En nuestro espacio pensamos a la psicología desde lo
-                      vincular. La psicología estudia la manera de vincularnos
-                      con el otro. Se pretende crear un espacio donde los
-                      pacientes puedan desplegar su ser y descubramos juntos
-                      todo lo que hay por desarrollar.{" "}
+                    El proceso de aprendizaje definido en sentido amplio es aquel que incluye el conjunto de factores que inciden en las particularidades de la relación de un sujeto con el mundo cuando integra e incorpora conocimientos. No se circunscribe exclusivamente al aprendizaje escolar sino a la manera individual de procesar el conocimiento, condicionada por la capacidad subjetiva para instrumentarlas y transformarlas.{" "}
                     </p>
                     <br></br>
-                    <p>
-                      Es un espacio de comunicación, de escucha, de mirada, de
-                      contención y construcción de andamiajes, convirtiéndose
-                      así en una plataforma de despliegue.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -200,23 +178,14 @@ const Servicios = () => {
           <br></br>
           <div className="textoServiciosDesktop">
             <p>
-              Se suele definir a la psicología como el estudio de los procesos
-              mentales, las sensaciones, las percepciones y el comportamiento de
-              un sujeto, más específicamente sobre las causas del mismo.
+            Consiste en el uso terapéutico de las actividades de cuidado, trabajo y juego para incrementar la independencia funcional y prevenir la incapacidad; puede incluir la adaptación de tareas o del entorno para alcanzar la máxima independencia y aumentar la calidad de vida.
             </p>
             <br></br>
             <p>
-              En nuestro espacio pensamos a la psicología desde lo vincular. La
-              psicología estudia la manera de vincularnos con el otro. Se
-              pretende crear un espacio donde los pacientes puedan desplegar su
-              ser y descubramos juntos todo lo que hay por desarrollar.{" "}
+            Un profesional de terapia ocupacional trabaja con personas de todas las edades y con una variedad de necesidades, incluyendo personas con discapacidades físicas, mentales, emocionales o sociales, utilizando técnicas para mejorar la coordinación, la fuerza, el equilibrio y la destreza manual, así como también para mejorar la capacidad de atención, la memoria y el pensamiento crítico.{" "}
             </p>
             <br></br>
-            <p>
-              Es un espacio de comunicación, de escucha, de mirada, de
-              contención y construcción de andamiajes, convirtiéndose así en una
-              plataforma de despliegue.
-            </p>
+      
           </div>
 
           <div className="textoServiciosMobile">
@@ -230,10 +199,7 @@ const Servicios = () => {
                 aria-controls="multiCollapseExample1"
               >
                 <p>
-                  Se suele definir a la psicología como el estudio de los
-                  procesos mentales, las sensaciones, las percepciones y el
-                  comportamiento de un sujeto, más específicamente sobre las
-                  causas del mismo.
+                Consiste en el uso terapéutico de las actividades de cuidado, trabajo y juego para incrementar la independencia funcional y prevenir la incapacidad; puede incluir la adaptación de tareas o del entorno para alcanzar la máxima independencia y aumentar la calidad de vida.
                   <br></br>
                   <p className="textoCentrado btnShow myButton">
                     <AiFillCaretDown />
@@ -249,18 +215,9 @@ const Servicios = () => {
                 >
                   <div className="normalText">
                     <p>
-                      En nuestro espacio pensamos a la psicología desde lo
-                      vincular. La psicología estudia la manera de vincularnos
-                      con el otro. Se pretende crear un espacio donde los
-                      pacientes puedan desplegar su ser y descubramos juntos
-                      todo lo que hay por desarrollar.{" "}
+                    Un profesional de terapia ocupacional trabaja con personas de todas las edades y con una variedad de necesidades, incluyendo personas con discapacidades físicas, mentales, emocionales o sociales, utilizando técnicas para mejorar la coordinación, la fuerza, el equilibrio y la destreza manual, así como también para mejorar la capacidad de atención, la memoria y el pensamiento crítico.{" "}
                     </p>
                     <br></br>
-                    <p>
-                      Es un espacio de comunicación, de escucha, de mirada, de
-                      contención y construcción de andamiajes, convirtiéndose
-                      así en una plataforma de despliegue.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -274,23 +231,9 @@ const Servicios = () => {
           <br></br>
           <div className="textoServiciosDesktop">
             <p>
-              Se suele definir a la psicología como el estudio de los procesos
-              mentales, las sensaciones, las percepciones y el comportamiento de
-              un sujeto, más específicamente sobre las causas del mismo.
+            La musicoterapia es una disciplina de la salud que utiliza el recurso de la música y sus elementos (ritmo, melodía y armonia) para promover, prevenir y rehabilitar la salud. Esta tarea es realizada por un musicoterapeuta calificado. En ese proceso, el musicoterapeuta promueve y registra cambios expresivos, receptivos y relacionales que dan cuenta de la evolución. 
             </p>
             <br></br>
-            <p>
-              En nuestro espacio pensamos a la psicología desde lo vincular. La
-              psicología estudia la manera de vincularnos con el otro. Se
-              pretende crear un espacio donde los pacientes puedan desplegar su
-              ser y descubramos juntos todo lo que hay por desarrollar.{" "}
-            </p>
-            <br></br>
-            <p>
-              Es un espacio de comunicación, de escucha, de mirada, de
-              contención y construcción de andamiajes, convirtiéndose así en una
-              plataforma de despliegue.
-            </p>
           </div>
 
           <div className="textoServiciosMobile">
@@ -304,10 +247,7 @@ const Servicios = () => {
                 aria-controls="multiCollapseExample1"
               >
                 <p>
-                  Se suele definir a la psicología como el estudio de los
-                  procesos mentales, las sensaciones, las percepciones y el
-                  comportamiento de un sujeto, más específicamente sobre las
-                  causas del mismo.
+                La musicoterapia es una disciplina de la salud que utiliza el recurso de la música y sus elementos (ritmo, melodía y armonia) para promover, prevenir y rehabilitar la salud. 
                   <br></br>
                   <p className="textoCentrado btnShow myButton">
                     <AiFillCaretDown />
@@ -323,18 +263,9 @@ const Servicios = () => {
                 >
                   <div className="normalText">
                     <p>
-                      En nuestro espacio pensamos a la psicología desde lo
-                      vincular. La psicología estudia la manera de vincularnos
-                      con el otro. Se pretende crear un espacio donde los
-                      pacientes puedan desplegar su ser y descubramos juntos
-                      todo lo que hay por desarrollar.{" "}
+                    Esta tarea es realizada por un musicoterapeuta calificado. En ese proceso, el musicoterapeuta promueve y registra cambios expresivos, receptivos y relacionales que dan cuenta de la evolución.{" "}
                     </p>
                     <br></br>
-                    <p>
-                      Es un espacio de comunicación, de escucha, de mirada, de
-                      contención y construcción de andamiajes, convirtiéndose
-                      así en una plataforma de despliegue.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -350,22 +281,15 @@ const Servicios = () => {
           <br></br>
           <div className="textoServiciosDesktop">
             <p>
-              Se suele definir a la psicología como el estudio de los procesos
-              mentales, las sensaciones, las percepciones y el comportamiento de
-              un sujeto, más específicamente sobre las causas del mismo.
+            Como parte sustancial de los tratamientos con niños, aparece el trabajo con sus familias. Se trabaja con padres, hermanos y otros familiares o colaboradores en pos de favorecer y acompañar el desarrollo de los chicos de la mejor manera. 
             </p>
             <br></br>
             <p>
-              En nuestro espacio pensamos a la psicología desde lo vincular. La
-              psicología estudia la manera de vincularnos con el otro. Se
-              pretende crear un espacio donde los pacientes puedan desplegar su
-              ser y descubramos juntos todo lo que hay por desarrollar.{" "}
+            Se busca favorecer espacios de intercambio y de contención siempre que se puede y el tratamiento o las familias lo requieren.{" "}
             </p>
             <br></br>
             <p>
-              Es un espacio de comunicación, de escucha, de mirada, de
-              contención y construcción de andamiajes, convirtiéndose así en una
-              plataforma de despliegue.
+            A su vez, se realiza también un importante trabajo con las diferentes instituciones educativas a las que los chicos asisten ya que son una parte grande de su día a día y consideramos fundamental estar en comunicación.
             </p>
           </div>
 
@@ -380,10 +304,7 @@ const Servicios = () => {
                 aria-controls="multiCollapseExample1"
               >
                 <p>
-                  Se suele definir a la psicología como el estudio de los
-                  procesos mentales, las sensaciones, las percepciones y el
-                  comportamiento de un sujeto, más específicamente sobre las
-                  causas del mismo.
+                Como parte sustancial de los tratamientos con niños, aparece el trabajo con sus familias. Se trabaja con padres, hermanos y otros familiares o colaboradores en pos de favorecer y acompañar el desarrollo de los chicos de la mejor manera. 
                   <br></br>
                   <p className="textoCentrado btnShow myButton">
                     <AiFillCaretDown />
@@ -399,17 +320,11 @@ const Servicios = () => {
                 >
                   <div className="normalText">
                     <p>
-                      En nuestro espacio pensamos a la psicología desde lo
-                      vincular. La psicología estudia la manera de vincularnos
-                      con el otro. Se pretende crear un espacio donde los
-                      pacientes puedan desplegar su ser y descubramos juntos
-                      todo lo que hay por desarrollar.{" "}
+                    Se busca favorecer espacios de intercambio y de contención siempre que se puede y el tratamiento o las familias lo requieren..{" "}
                     </p>
                     <br></br>
                     <p>
-                      Es un espacio de comunicación, de escucha, de mirada, de
-                      contención y construcción de andamiajes, convirtiéndose
-                      así en una plataforma de despliegue.
+                    A su vez, se realiza también un importante trabajo con las diferentes instituciones educativas a las que los chicos asisten ya que son una parte grande de su día a día y consideramos fundamental estar en comunicación.
                     </p>
                   </div>
                 </div>
@@ -418,7 +333,7 @@ const Servicios = () => {
           </div>
         </div>
       </div>
-
+      <br></br><br></br>
       <div className="sobreElProceso">
         <div className="sobreElProcesoTitulos">
           <h3 className="textoCentrado">Sobre el proceso</h3>
@@ -520,7 +435,8 @@ const Servicios = () => {
       <div className="ayudarte">
         <h3 className="textoCentrado">
           <span className="titulosActive">Ante cualquier consulta</span>{" "}
-          <a href="google.com" className="ayudarte">
+          <a href="https://api.whatsapp.com/send?phone=541149459525"
+            target="_blank" rel="noreferrer"className="ayudarte">
             estamos acá para ayudarte
           </a>
         </h3>

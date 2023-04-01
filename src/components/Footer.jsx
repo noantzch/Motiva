@@ -3,6 +3,7 @@ import "../App.css";
 import ubi from "../img-logos/ubi.png";
 import ig from "../img-logos/ig.png";
 import wsp from "../img-logos/wsp.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -12,33 +13,33 @@ const Footer = () => {
           <p className="footer-motiva">Motiva terapias</p>
         </div>
         <div className="footer-texto-div">
-          <a className="footer-texto" href="">
+          <Link className="footer-texto" to="/">
             Home
-          </a>
-          <a className="footer-texto" href="">
+          </Link>
+          <Link className="footer-texto" to="/quienes-somos">
             Quienes somos
-          </a>
-          <a className="footer-texto" href="">
+          </Link>
+          <Link className="footer-texto" to="/terapias">
             Servicios
-          </a>
-          <a className="footer-texto" href="">
+          </Link>
+          <Link className="footer-texto" to="/capacitaciones">
             Talleres y charlas
-          </a>
-          <a className="footer-texto" href="">
+          </Link>
+          <Link className="footer-texto" to="/contacto">
             Contacto
-          </a>
+          </Link>
         </div>
         <div className="ubi-footer">
           <img src={ubi} alt="" />
           <p>Zona Norte, Buenos Aires.</p>
         </div>
         <div className="div-footer-redes">
-          <a href="https://www.instagram.com/motiva.terapias/" target="_blank">
+          <a href="https://www.instagram.com/motiva.terapias/" target="_blank" rel="noreferrer">
             <img src={ig} alt="" />
           </a>
           <a
             href="https://api.whatsapp.com/send?phone=541149459525"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <img src={wsp} alt="" />
           </a>
