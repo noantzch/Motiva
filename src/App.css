@@ -374,6 +374,7 @@ body {
   margin-bottom: 79.17px;
 }
 
+<<<<<<< HEAD
 .div-cuadros-quienesomos {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -515,6 +516,8 @@ body {
 
 /* medias q */
 
+=======
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
 
 
 
@@ -522,6 +525,7 @@ body {
 
 /* css de noel */
 
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
@@ -530,12 +534,24 @@ body {
 }
 
 .carousel-indicators [data-bs-target] {
+=======
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  font-family: 'Poppins';
+  box-sizing: 0;
+}
+
+.carousel-indicators [data-bs-target]{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   width: 0.5em !important;
   height: 0.5em !important;
   border-radius: 100% !important;
 }
 .carousel-indicators .active {
   opacity: 1 !important;
+<<<<<<< HEAD
   background-color: #5dbc8f !important;
 }
 
@@ -544,43 +560,84 @@ body {
 }
 
 .bienvenidaContainer {
+=======
+  background-color: #5DBC8F !important;
+}
+
+.backgroundPrimary{
+  background-color: #f7ffff !important;
+}
+
+.bienvenidaContainer{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   padding: 3% 17.313% !important;
 }
 @media (max-width: 768px) {
   .bienvenidaContainer {
+<<<<<<< HEAD
     padding: 2em !important;
   }
 }
 .btn {
+=======
+      padding: 2em !important;
+  }
+}
+.btn{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   width: 11.875em !important;
   text-align: center !important;
   padding: 0.6em !important;
 }
+<<<<<<< HEAD
 .btn-primary {
   background-color: #4c7a7c !important;
   border-color: #4c7a7c !important;
+=======
+.btn-primary{
+  background-color: #4C7A7C !important;
+  border-color: #4C7A7C !important;
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   --bs-btn-hover-bg: #3a5e60 !important;
   box-shadow: 0px 3px 7px grey !important;
   border-radius: 1em !important;
 }
+<<<<<<< HEAD
 .titulos1 {
   font-family: "Poppins";
+=======
+.titulos1{
+  font-family: 'Poppins';
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   font-size: 2.5em !important;
   font-weight: 900 !important;
   line-height: 3.75em !important;
   letter-spacing: 0em !important;
+<<<<<<< HEAD
   text-align: center !important;
 }
 .bienvenidaTexto {
+=======
+  text-align: center !important;  
+}
+.bienvenidaTexto{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   font-family: Poppins !important;
   font-size: 1.25em !important;
   line-height: 1.875em !important;
   text-align: center !important;
 }
+<<<<<<< HEAD
 .titulosActive {
   color: #4c7a7c !important;
 }
 .textoImagenIzquierda {
+=======
+.titulosActive{
+  color: #4C7A7C !important;
+}
+.textoImagenIzquierda{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   display: flex !important;
   flex-direction: row !important;
   padding: 1em 6.78em !important;
@@ -589,12 +646,21 @@ body {
 }
 @media screen and (max-width: 900px) {
   .textoImagenIzquierda {
+<<<<<<< HEAD
     flex-direction: column !important;
     padding: 0 !important;
     align-items: center !important;
   }
 }
 .textoTextoImagenIzquierda {
+=======
+      flex-direction: column !important;
+      padding: 0 !important;
+      align-items: center !important;
+  }
+}
+.textoTextoImagenIzquierda{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   display: flex !important;
   flex-direction: column !important;
   padding: 0 3.75em !important;
@@ -602,6 +668,7 @@ body {
   padding-top: 3em !important;
 }
 @media screen and (max-width: 900px) {
+<<<<<<< HEAD
   .textoTextoImagenIzquierda {
     align-items: center !important;
     padding: 2em 2em !important;
@@ -613,30 +680,60 @@ h3 {
   font-weight: 900 !important;
 }
 .fotos {
+=======
+  .textoTextoImagenIzquierda{
+      align-items: center !important;
+      padding: 2em 2em !important;
+      width: 100% !important;
+  }
+}
+h3{
+  font-family: 43.75em !important;
+  font-weight: 900 !important;
+}
+.fotos{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   margin: 1em !important;
   height: auto !important;
 }
 @media screen and (max-width: 768px) {
   .fotos {
+<<<<<<< HEAD
     margin: 0 !important;
     width: 100% !important;
     border-radius: 0 !important;
   }
 }
 #imgQuienes {
+=======
+      margin: 0 !important;
+      width: 100% !important;
+      border-radius: 0 !important;
+  }
+}
+#imgQuienes{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   width: 38.938em !important;
   height: 26.438em !important;
   border-radius: 0.938em !important;
   padding: 1em 0 !important;
 }
+<<<<<<< HEAD
 .imgPerrito {
   width: 7.25em !important;
 }
 #perrito1 {
+=======
+.imgPerrito{
+  width: 7.25em !important;
+}
+#perrito1{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   margin-left: 20em !important;
   margin-top: 4em !important;
 }
 @media screen and (max-width: 900px) {
+<<<<<<< HEAD
   #perrito1 {
     display: none !important;
   }
@@ -646,19 +743,38 @@ h3 {
   align-items: center !important;
 }
 .nuestrasterapiasBienvenida {
+=======
+  #perrito1{
+      display: none !important;
+  }
+}
+.textoCentrado{
+  text-align: center !important;
+  align-items: center !important;
+}
+.nuestrasterapiasBienvenida{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
   align-items: center !important;
 }
+<<<<<<< HEAD
 .cardsContainer {
+=======
+.cardsContainer{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   display: flex !important;
   flex-direction: row !important;
   justify-content: center !important;
   align-items: center !important;
   flex-wrap: wrap !important;
 }
+<<<<<<< HEAD
 .cardContainer {
+=======
+.cardContainer{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   width: 19.64em !important;
   margin: 2.68em !important;
   display: flex !important;
@@ -668,6 +784,7 @@ h3 {
   justify-content: center !important;
 }
 @media screen and (max-width: 768px) {
+<<<<<<< HEAD
   .cardsContainer {
     flex-direction: column !important;
   }
@@ -681,23 +798,48 @@ h3 {
   padding-bottom: 1.813em !important;
 }
 .titulos3 {
+=======
+  .cardsContainer{
+      flex-direction: column !important;
+  }
+  .cardContainer{
+      width: 100% !important;
+      margin: 0 !important;
+
+  }
+}
+.cardImageB{
+  width: 19.64em !important;
+  padding-bottom: 1.813em !important;
+}
+.titulos3{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   font-size: 1.5em !important;
   font-weight: 700 !important;
   padding-bottom: 0.3em !important;
   max-width: 51.37em !important;
 }
+<<<<<<< HEAD
 .textoImagenDerecha {
+=======
+.textoImagenDerecha{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   display: flex !important;
   flex-direction: row !important;
   margin: 6em !important;
   justify-content: center !important;
   align-items: flex-start !important;
 }
+<<<<<<< HEAD
 .textoTextoImagenDerecha {
+=======
+.textoTextoImagenDerecha{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   width: 31.813em !important;
   margin: 1.125em !important;
 }
 @media screen and (max-width: 900px) {
+<<<<<<< HEAD
   .textoImagenDerecha {
     flex-direction: column !important;
     flex-direction: column-reverse !important;
@@ -750,22 +892,88 @@ h3 {
 
 .preFooterB {
   position: relative !important;
+=======
+  .textoImagenDerecha{
+      flex-direction: column !important;
+      flex-direction: column-reverse !important;
+      margin: 0 !important;
+      margin-top: 3em !important;
+      align-items: center !important;
+  }
+  .textoTextoImagenDerecha{
+      text-align: center !important;
+      width: 100% !important;
+      margin: 0.1em !important;
+      padding: 2em 2em !important;
+  }
+}
+.nuestrosPacientesCardsCarrousel{
+  display: none !important;
+}
+@media screen and (max-width: 768px) {
+  .capacitacionesTexto{
+      width: auto !important;
+  }
+  #conejito{
+      display: none !important;
+  }
+  .nuestrosPacientesCards{
+      display: none !important;
+  }
+  .nuestrosPacientesCardsCarrousel{
+      display:block !important;
+  }
+}
+
+.card{
+  border: none !important;
+}
+.cardComentario{
+  width: 15.813em !important;
+}
+.huellasBackground{
+  background-image: url('./components/images/huella.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: right 28em !important;    
+  position: relative !important;
+}
+.nuestrosPacientesDicenB{
+  padding: 4em !important;
+  background-color: white !important;
+  position: relative !important; 
+}
+
+.preFooterB{
+  position: relative !important; 
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   padding-top: 11.5em !important;
   padding-bottom: 5em !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 768px) {
   .preFooterB {
     padding: 2em !important;
+=======
+@media screen and (max-width:768px) {
+  .preFooterB{
+      padding: 2em !important;
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   }
 }
 .huellasBackground::before {
   content: "" !important;
+<<<<<<< HEAD
   background-image: url(".//components/images/huella.png") !important;
   background-repeat: no-repeat !important;
   background-position: right 28em !important;
+=======
+  background-image: url('.//components/images/huella.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: right 28em !important;   
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   position: absolute !important;
   top: 0 !important;
   left: 0 !important;
@@ -774,6 +982,7 @@ h3 {
   z-index: 2 !important;
 }
 @media screen and (max-width: 768px) {
+<<<<<<< HEAD
   .huellasBackground {
     background: none !important;
   }
@@ -782,11 +991,22 @@ h3 {
   }
 }
 #perrito2 {
+=======
+  .huellasBackground{
+      background: none !important;
+  }
+  .huellasBackground::before {
+      content: none !important;
+  }
+}
+#perrito2{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   position: absolute !important;
   bottom: 0 !important;
   left: 3em !important;
 }
 @media screen and (max-width: 768px) {
+<<<<<<< HEAD
   #perrito2 {
     left: 0 !important;
   }
@@ -820,11 +1040,47 @@ h3 {
   color: black !important;
 }
 #perrito4 {
+=======
+  #perrito2{
+      left: 0 !important;
+  }
+}
+
+.imgPortada{
+  width: 100% !important;
+}
+h3{
+  margin-bottom: 0 !important;
+}
+.textoServiciosMobile{
+  display: none !important;
+}
+@media screen and (max-width: 768px) {
+  #tresperros{
+      display: none !important;
+  }
+  #perrito3{
+      width: 3.5em !important;
+  }
+  .textoServiciosDesktop{
+      display: none !important;
+  }
+  .textoServiciosMobile{
+      display: block !important;
+  }
+}
+.normalText{
+  text-decoration: none !important;
+  color: black !important;
+}
+#perrito4{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   position: relative !important;
   left: 80% !important;
   top: -2em !important;
 }
 @media screen and (max-width: 768px) {
+<<<<<<< HEAD
   #perrito4 {
     left: 40% !important;
     top: 0 !important;
@@ -839,12 +1095,33 @@ h3 {
   padding: 3em 0 !important;
 }
 .pasosDesktop {
+=======
+  #perrito4{
+      left: 40% !important;
+      top:0 !important;
+  }
+}
+
+
+.ayudarte{
+  color: black !important;
+}
+.sobreElProceso{
+  background-color:#89d0d4e5 !important;
+  padding: 3em 0 !important;
+}
+.pasosDesktop{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   display: flex !important;
   flex-direction: row !important;
   justify-items: center !important;
   justify-content: center !important;
 }
+<<<<<<< HEAD
 .textoPasos {
+=======
+.textoPasos{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   width: 25% !important;
   height: 100% !important;
   padding: 2em !important;
@@ -870,7 +1147,11 @@ h3 {
   top: 50% !important;
   left: 0 !important;
   right: 0 !important;
+<<<<<<< HEAD
   border-top: 3px solid #4c7a7c !important;
+=======
+  border-top: 3px solid #4C7A7C !important;
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   width: 100% !important;
   margin-left: -20px !important;
   margin-right: -20px !important;
@@ -884,7 +1165,11 @@ h3 {
   border-radius: 50% !important;
   font-size: 24px !important;
   font-weight: bold !important;
+<<<<<<< HEAD
   color: #4c7a7c !important;
+=======
+  color:#4C7A7C !important;
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   background-color: white !important;
   position: relative !important;
   z-index: 1 !important;
@@ -899,6 +1184,7 @@ h3 {
   width: 25px !important;
   height: 25px !important;
   font-size: 10px !important;
+<<<<<<< HEAD
   background-color: #4c7a7c !important;
 }
 .lineaNumerosMobile {
@@ -959,26 +1245,103 @@ h3 {
   width: auto !important;
 }
 .containerIcon {
+=======
+  background-color: #4C7A7C !important;
+}
+.lineaNumerosMobile{
+  display: none !important;
+}
+@media screen and (max-width: 768px) {
+  .lineaNumerosDektop{
+      display: none !important;
+  }
+  .pasosDesktop{
+      display: none !important;
+  }
+  .lineaNumerosMobile {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      flex-direction: column !important;
+    }
+    .line-with-circles {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      position: relative !important;
+      height: 100% !important;
+    }
+    
+    .line-with-circles::before {
+      content: "" !important;
+      width: 50% !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      content: "" !important;
+      position: absolute !important;
+      top: 0 !important;
+      bottom: 0 !important;
+      left: 49.6% !important;
+      border-left: 3px solid #4C7A7C !important;
+      border-top: none !important;
+      z-index: 1 !important;
+    }
+    .textoPasos{
+      background-color: white !important;
+      border-radius: 8px !important;
+      width: 330px !important;
+    }
+  .ayudarte{
+      padding: 1em 1em 2em 0em !important;
+  }
+}
+.carousel-control-next-icon{
+  filter: invert(1) !important;
+}
+.carousel-control-prev-icon{
+  filter: invert(1) !important;
+}
+.carousel-control-next, .carousel-control-prev{
+  width: auto !important;
+}
+.containerIcon{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   border-radius: 100% !important;
   background-color: #3a5e60 !important;
   width: 6em !important;
   padding: 1em !important;
 }
+<<<<<<< HEAD
 .redesIcon {
   color: white !important;
   font-size: 4em !important;
 }
 .containerVias {
+=======
+.redesIcon{
+  color: white !important;
+  font-size: 4em !important;
+}
+.containerVias{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   display: flex !important;
   flex-direction: row !important;
   justify-content: center !important;
 }
 @media screen and (max-width: 768px) {
+<<<<<<< HEAD
   .containerVias {
     flex-direction: column !important;
   }
 }
 .vias {
+=======
+  .containerVias{
+      flex-direction: column !important;
+  }
+}
+.vias{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
@@ -995,6 +1358,7 @@ h3 {
 
 .title-line {
   height: 0.1em !important;
+<<<<<<< HEAD
   color: #4c7a7c !important;
   background-color: #4c7a7c !important;
   flex: 1 !important;
@@ -1004,16 +1368,32 @@ h3 {
 }
 
 .siguenosIcons {
+=======
+  color: #4C7A7C !important;
+  background-color: #4C7A7C !important;
+  flex: 1 !important;
+  margin: 0 2em !important;
+  border: 2px solid #4C7A7C !important;
+  opacity: none !important;
+}
+
+.siguenosIcons{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   display: flex !important;
   flex-direction: row !important;
   justify-content: space-around !important;
 }
+<<<<<<< HEAD
 .siguenosRedS {
+=======
+.siguenosRedS{
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
   justify-content: center !important;
 }
+<<<<<<< HEAD
 p {
   font-size: 1.1em !important;
 }
@@ -1023,3 +1403,14 @@ p {
     padding: 1em !important;
   }
 }
+=======
+p{
+  font-size: 1.1em !important;
+}
+@media screen and (max-width: 768px) {
+  p{
+      font-size: 1.4em !important;
+      padding: 1em !important;
+  }
+}
+>>>>>>> ab82b325b377f81d25f81f6ba1f94c562c23cc33
