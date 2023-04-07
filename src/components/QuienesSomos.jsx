@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import quienessomos1 from "../img-logos/quienes-somos1.png";
 import quienessomos2 from "../img-logos/quienes-somos2.jpg";
 import quienessomos3 from "../img-logos/quienes-somos3.png";
@@ -16,15 +16,16 @@ import quienessomos14 from "../img-logos/quienes-somos14.png";
 import quienessomos15 from "../img-logos/quienes-somos15.png";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "react-router-dom";
+import ultimoimg from "../img-logos/quienes-somos-m.png";
 
 function QuienesSomos() {
   return (
     <div>
       <div className="quienessomos1">
         <div>
-          <img src={quienessomos1} alt="" />
+          <img className="patita-qs" src={quienessomos1} alt="" />
         </div>
-        <div>
+        <div className="media-qs">
           <h2>Sobre Motiva</h2>
           <div className="quienessomos-p">
             <p>
@@ -41,14 +42,14 @@ function QuienesSomos() {
             </p>
             <p>
               Con la ayuda de nuestros profesionales capacitados, nuestros
-              pacientes pueden experimentar una mayor confianza, beneficiar el
-              desarrollo de las habilidades sociales y la comunicación, mejorar
-              su bienestar general.
+              pacientes pueden experimentar una mayor confianza, beneficiarse
+              del desarrollo de las distintas habilidades sociales y la
+              comunicación, mejorar su bienestar general.
             </p>
           </div>
         </div>
         <div>
-          <img src={quienessomos2} alt="" />
+          <img className="img-1" src={quienessomos2} alt="" />
         </div>
       </div>
       <div className="quienessomos2">
@@ -58,19 +59,36 @@ function QuienesSomos() {
       <div className="div-quienessomos-card">
         <div className="quienessomos-card">
           <img src={quienessomo4} alt="" />
-          <h3>Jime Tarcetti</h3>
-          <p>Lic. en Psicología y Psicopedagogía</p>
-          <div className="quienessomos-a">
-            <a href="https://drive.google.com/drive/my-drive?hl=es" target="_blank" rel="noreferrer">Consultar Cv</a>
-          </div>
+          <h3>
+            Jimena <span>Tarcetti</span>
+          </h3>
+          <p>Lic. en Psicopedagogía</p>
+          <p>
+            India y Shiva viven conmigo, son parte de mi familia; ambas fueron
+            formadas como perras de terapia y me acompañan al consultorio día a
+            día a trabajar con nuestros pacientes.
+            <br />
+            Siempre soñé con poder combinar la Psicopedagogía con los animales,
+            por lo que me considero muy afortunada de poder compartir con ellas
+            mi espacio de trabajo, sin dudas facilitan y habilitan nuevos
+            espacios en las intervenciones con los pacientes.
+          </p>
         </div>
         <div className="quienessomos-card">
           <img src={quienessomo5} alt="" />
-          <h3>Rochi Rico</h3>
-          <p>Lic. en Psicopedagogía</p>
-          <div className="quienessomos-a">
-            <a href="https://drive.google.com/drive/my-drive?hl=es" target="_blank" rel="noreferrer">Consultar Cv</a>
-          </div>
+          <h3>
+            Rosario <span>Rico</span>
+          </h3>
+          <p>Lic. en Psicopedagogía y Psicología</p>
+          <p>
+            Otto y Enzo son mis mascotas, a quienes formé (y sigo formando) para
+            que me acompañen a trabajar con todos nuestros pacientes. Todo este
+            proceso de aprendizaje es basado en el respeto y en su bienestar.{" "}
+            <br />
+            Considero que es un gran privilegio poder tenerlos conmigo en mi
+            espacio de trabajo, sin duda facilitan las intervenciones con cada
+            paciente y hacen que cada sesión se vuelva única.
+          </p>
         </div>
       </div>
       <div className="icon-quienes-somos">
@@ -78,7 +96,7 @@ function QuienesSomos() {
       </div>
       <div className="div-cuadros-quienesomos">
         <div className="div-cuadros">
-          <h3>2 Psicólogos</h3>
+          <h3>3 Psicólogas</h3>
           <p>Lic. en Psicología</p>
         </div>
         <div className="div-cuadros">
@@ -86,7 +104,7 @@ function QuienesSomos() {
           <p>Lic. en Terapia ocupacional</p>
         </div>
         <div className="div-cuadros">
-          <h3>1 Psicopedagoga</h3>
+          <h3>2 Psicopedagogas</h3>
           <p>Lic. en Psicopedagogía</p>
         </div>
         <div className="div-cuadros">
@@ -96,85 +114,50 @@ function QuienesSomos() {
       </div>
       <div className="div-texto-img">
         <h2>Equipo animal</h2>
-        <img src={quienessomos7} alt="" />
+        <img className="img-d-c" src={quienessomos7} alt="" />
       </div>
       <div className="div-animales-desc">
         <div className="animales-desc">
           <img src={quienessomos8} alt="" />
           <h3>Porota</h3>
-          <div>
-            <p>
-              Ella es una Cabeza de leon de 4 años. Se lleva bien con otros
-              animales, le gustan mucho los mimos. Come todo tipo de verduras y
-              frutas, su preferida es la banana.En el caso de ella no recibe un
-              entrenamiento, sino que se la desensibiliza para que pueda
-              disfrutar de las caricias y de la interacción con los niños.
-            </p>
+          <div className="qs-desk">
+            <p>Ella es una Cabeza de leon.</p>
           </div>
         </div>
         <div className="animales-desc">
           <img src={quienessomos9} alt="" />
+
           <h3>India</h3>
           <div>
-            <p>
-              Es una Pastor shetland de 4 años y es nuestro “comodín”. Tiene una
-              gran capacidad de adaptación a las distintas situaciones y es muy
-              cariñosa. Puede permanecer tranquila o activar y jugar con gran
-              entusiasmo. India puede ingresar al consultorio para múltiples
-              actividades, ya sea para acompañar pasivamente, para realizar
-              alguna tarea en la que tenga algún tipo de participación o para
-              jugar activamente.
-            </p>
+            <p>Es una Pastor shetland.</p>
           </div>
         </div>
         <div className="animales-desc">
           <img src={quienessomos10} alt="" />
           <h3>Shiva</h3>
           <div>
-            <p>
-              Es un Border Collie de 7 años y es muy juguetona y tiene mucha
-              energía.Por su naturaleza necesita actividades (ya sea físicas o
-              mentales) gran parte del tiempo e ingresa al consultorio para
-              juegos/tareas más activas, que requieran movimiento. También se
-              puede trabajar actividades más pasivas que incluyan comida.
-            </p>
+            <p>Es un Border Collie.</p>
           </div>
         </div>
         <div className="animales-desc">
           <img src={quienessomos11} alt="" />
           <h3>Otto</h3>
           <div>
-            <p>
-              Es un Boyero de berna de 9 años y el es muy tranquilo y dormilón
-              con el en el consultorio podés hacer juegos pasivos: por ejemplo
-              acostarlo y ponerle objetos encima (autitos, fichas), o
-              disfrazarlo con diferentes objetivos. También podés cepillarlo y
-              peinarlo por horas. Sin dudas darle de comer es la actividad que
-              más disfruta.
-            </p>
+            <p>Es un Boyero de berna.</p>
           </div>
         </div>
         <div className="animales-desc">
           <img src={quienessomos12} alt="" />
           <h3>Enzo</h3>
           <div>
-            <p>
-              Es un Boyero de berna y tiene 1 años y es juegueton y el mas
-              cachorro de los perritos. Con el en el consultorio realizamos
-              juegos de olfato o de búsqueda y pueden encontrarle diferentes
-              objetivos,todavía se encuentra en proceso de formación.
-            </p>
+            <p>Es un Boyero de berna.</p>
           </div>
         </div>
         <div className="animales-desc">
           <img src={quienessomos13} alt="" />
           <h3>Mila</h3>
           <div>
-            <p>
-              Ella es una Golden retriever , tiene una gran energía. Le gusta
-              mucho la pelota y la comida. Ambas opciones las pueden usar para
-              guiarla por circuito o saltar vallas por ej.
-            </p>
+            <p>Ella es una Golden retriever.</p>
           </div>
         </div>
       </div>
@@ -183,11 +166,12 @@ function QuienesSomos() {
           <h3>Preguntas frecuentes</h3>
           <p>
             Aquí encontrarás las respuestas a algunas de las preguntas más
-            comunes que nuestros clientes suelen hacer.{" "}
+            comunes que nos suelen hacer
           </p>
-          <Accordion>
+
+          <Accordion className="preg-b">
             <Accordion.Item eventKey="0">
-              <Accordion.Header >
+              <Accordion.Header>
                 ¿Quienes pueden realizar estos tipos de terapia?
               </Accordion.Header>
               <Accordion.Body>
@@ -200,10 +184,9 @@ function QuienesSomos() {
                 ¿Los animales están siempre presentes en la sesión?
               </Accordion.Header>
               <Accordion.Body>
-                Todas las terapias No siempre tiene que estar presente el
-                perro/a en la sesión, eso va a depender del objetivo que se
-                quiera trabajar en cada tratamiento y de la actividad/juego a
-                realizar.
+                No siempre tiene que estar presente el perro/a en la sesión, eso
+                va a depender del objetivo que se quiera trabajar en cada
+                tratamiento y de la actividad/juego a realizar.
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="2">
@@ -222,12 +205,18 @@ function QuienesSomos() {
           </Accordion>
         </div>
         <div>
-          <img src={quienessomos14} alt="" />
+          <img className="img-qs-m" src={quienessomos14} alt="" />
         </div>
       </div>
       <div className="link-quienessomos">
         <img src={quienessomos15} alt="" />
-        <h3>Ante cualquier consulta <Link to={"/contacto"}>estamos acá para ayudarte</Link></h3>
+        <h3>
+          Ante cualquier consulta{" "}
+          <Link to={"/contacto"}>estamos acá para ayudarte</Link>
+        </h3>
+      </div>
+      <div className="detalle-qs">
+        <img src={ultimoimg} alt="" />
       </div>
     </div>
   );

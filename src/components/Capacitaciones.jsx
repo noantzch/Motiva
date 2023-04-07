@@ -36,7 +36,10 @@ function Capacitaciones() {
         </div>
       </div>
       <h2 className="capacitaciones-texto-2">
-        Características de la C<span>apacitación en TAP</span>
+        Características de la <span>Capacitación en TAP</span>
+      </h2>
+      <h2 className="capacitaciones-texto-2-m">
+        Nuestro <span>enfoque</span>
       </h2>
       <div className="capacitaciones-2">
         <div className="capacitaciones-card">

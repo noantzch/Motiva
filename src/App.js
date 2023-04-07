@@ -8,7 +8,6 @@ import Servicios from "./components/servicios";
 import Contacto from "./components/contacto";
 import { Bienvenida } from "./components/bienvenida";
 
-
 function App() {
   return (
     <BrowserRouter>

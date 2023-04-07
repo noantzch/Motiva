@@ -1,18 +1,15 @@
-
-import React from 'react'
-import tresperros2 from './images/tresperros2.png';
+import React from "react";
+import tresperros2 from "./images/tresperros2.png";
 import huella from "./images/huella.png";
-import{ AiOutlineWhatsApp} from 'react-icons/ai';
-import{ AiOutlineMail} from 'react-icons/ai';
-import Map from './maps';
-import {AiFillFacebook} from 'react-icons/ai';
-import {AiOutlineInstagram} from 'react-icons/ai';
-
+import { AiOutlineWhatsApp } from "react-icons/ai";
+import { AiOutlineMail } from "react-icons/ai";
+import Map from "./maps";
+import { AiFillFacebook } from "react-icons/ai";
+import { AiOutlineInstagram } from "react-icons/ai";
 
 const Contacto = () => {
   return (
     <div>
-
       <img className="imgPortada" src={tresperros2} alt=".."></img>
       <h3 className="textoCentrado titulosActive titulos1">
         ¿Cómo podemos ayudarte?
@@ -46,10 +43,12 @@ const Contacto = () => {
         </div>
         <div className="vias">
           <div className="containerIcon">
-            <a href="https://api.whatsapp.com/send?phone=541149459525"
-            target="_blank" rel="noreferrer">
-
-            <AiOutlineWhatsApp className="redesIcon"></AiOutlineWhatsApp>
+            <a
+              href="https://api.whatsapp.com/send?phone=541149459525"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiOutlineWhatsApp className="redesIcon"></AiOutlineWhatsApp>
             </a>
           </div>
           <br></br>
@@ -60,8 +59,11 @@ const Contacto = () => {
             chateá <br></br>con nosotras
           </p>
           <br></br>
-          <a href="https://api.whatsapp.com/send?phone=541149459525"
-            target="_blank" rel="noreferrer">
+          <a
+            href="https://api.whatsapp.com/send?phone=541149459525"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="btn btn-primary">Mensaje directo</button>
           </a>
         </div>
@@ -70,7 +72,8 @@ const Contacto = () => {
         Nuestra Ubicación aproximada
       </h4>
       <Map />
-    <br></br><br></br>
+      <br></br>
+      <br></br>
       <div class="siguenos">
         <hr className="title-line"></hr>
         <h3 class="titulosActive textoCentrado">Siguenos en redes</h3>
@@ -80,7 +83,7 @@ const Contacto = () => {
       <div className="siguenosIcons">
         <div className="siguenosRedS">
           <div className="containerIcon">
-            <a href='https://www.facebook.com/motiva.tacp' target='_blanck'>
+            <a href="https://www.facebook.com/motiva.tacp" target="_blanck">
               <AiFillFacebook className="redesIcon" />
             </a>
           </div>
@@ -88,7 +91,10 @@ const Contacto = () => {
         </div>
         <div className="siguenosRedS">
           <div className="containerIcon">
-            <a href='https://www.instagram.com/motiva.terapias/' target='_blanck'>
+            <a
+              href="https://www.instagram.com/motiva.terapias/"
+              target="_blanck"
+            >
               <AiOutlineInstagram className="redesIcon" />
             </a>
           </div>
@@ -99,8 +105,4 @@ const Contacto = () => {
   );
 };
 
-
-
-
-export default Contacto
-
+export default Contacto;

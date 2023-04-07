@@ -93,7 +93,9 @@ export const Bienvenida = () => {
             ></img>
             <h2 className="titulos3 textoCentrado">Psicología</h2>
             <p className="textoCentrado">
-            Ayuda a los niños y jóvenes a superar dificultades emocionales y conductuales, y a desarrollar habilidades y herramientas para enfrentar los desafíos de la vida diaria.
+              Ayuda a los niños y jóvenes a superar dificultades emocionales y
+              conductuales, y a desarrollar habilidades y herramientas para
+              enfrentar los desafíos de la vida diaria.
             </p>
           </div>
           <div className="cardContainer">
@@ -118,8 +120,11 @@ export const Bienvenida = () => {
             ></img>
             <h2 className="titulos3 textoCentrado">Terapia Ocupacional</h2>
             <p className="textoCentrado">
-            Consiste en el uso terapéutico de las actividades de cuidado, trabajo y juego para incrementar la independencia funcional y prevenir la incapacidad; puede incluir la adaptación de tareas o del entorno para alcanzar la máxima independencia y aumentar la calidad de vida.
-{" "}
+              Consiste en el uso terapéutico de las actividades de cuidado,
+              trabajo y juego para incrementar la independencia funcional y
+              prevenir la incapacidad; puede incluir la adaptación de tareas o
+              del entorno para alcanzar la máxima independencia y aumentar la
+              calidad de vida.{" "}
             </p>
           </div>
         </div>
@@ -136,7 +141,10 @@ export const Bienvenida = () => {
           <h3>Capacitaciones</h3>
           <br></br>
           <p>
-          Desde Motiva ofrecemos una capacitación TAP (Terapias Asistidas con Perros) donde abordamos los beneficios de este tipo de terapia, el lenguaje canino, el vínculo terapéutico, los tipos de abordajes posibles y las distintas poblaciones con la que se trabaja.
+            Desde Motiva ofrecemos una capacitación TAP (Terapias Asistidas con
+            Perros) donde abordamos los beneficios de este tipo de terapia, el
+            lenguaje canino, el vínculo terapéutico, los tipos de abordajes
+            posibles y las distintas poblaciones con la que se trabaja.
           </p>
           <br></br>
 
@@ -254,7 +262,9 @@ export const Bienvenida = () => {
         </div>
         <div className="preFooterB">
           <h3 className="titulos3 textoCentrado">
-          “Los perros son increíbles compañeros en la terapia, nos enseñan la importancia del amor incondicional y nos ayudan a sanar desde el corazón”
+            “Los perros son increíbles compañeros en la terapia, nos enseñan la
+            importancia del amor incondicional y nos ayudan a sanar desde el
+            corazón”
           </h3>
           <br></br>
           <img alt="JimeYRochi" src={jimeyorochi}></img>
