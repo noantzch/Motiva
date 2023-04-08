@@ -7,7 +7,7 @@ import psico from "./images/psico.png";
 import psicoPedago from "./images/psicoPedago.png";
 import orientacion from "./images/orientacion.png";
 import musicoTerapia from "./images/musicoTerapia.png";
-import terapiaOcu from "./images/terapiaOcu.png";
+import terapiaOcu from "./images/tep.jpeg";
 import { AiFillCaretDown } from "react-icons/ai";
 import perrito1 from "./images/perrito.png";
 
@@ -17,10 +17,10 @@ const Servicios = () => {
       <img className="imgPortada" src={portada} alt="..."></img>
       <div className="textoImagenDerecha">
         <div className="textoTextoImagenDerecha">
-          <h3>Sobre las terapias asistidas con perros </h3>
+          <h3>Sobre las terapias asistidas con animales </h3>
           <br></br>
           <p>
-            Las terapias asistidas con animales consisten a un animal como
+            Las terapias asistidas con animales consisten en una intervención donde se utiliza  a un animal como
             recurso terapéutico con el objetivo de beneficiar las diferentes
             áreas de funcionamiento, física, social, cognitiva y emocional de
             las personas tratadas o pacientes.
@@ -36,12 +36,16 @@ const Servicios = () => {
         </div>
         <img src={tresperros} alt="..." className="fotos" id="tresperros"></img>
       </div>
+
+
       <h3 className="textoCentrado">
         {" "}
         <img src={huella} alt="huella"></img> En Motiva{" "}
         <span className="titulosActive">nos especalizamos en... </span>{" "}
         <img src={perrito3} alt=".." id="perrito3"></img>{" "}
       </h3>
+
+      
       <div className="textoImagenIzquierda">
         <img src={psico} alt="psico" className="fotos"></img>
         <div className="textoTextoImagenIzquierda">
@@ -70,23 +74,23 @@ const Servicios = () => {
           </div>
 
           <div className="textoServiciosMobile">
-            <p>
+            <p  className= "textoServicios textoCentrado">
               <a
-                className="normalText"
+                className="normalText textoServicios"
                 data-bs-toggle="collapse"
                 href="#multiCollapseExample1"
                 role="button"
                 aria-expanded="false"
                 aria-controls="multiCollapseExample1"
               >
-                <p>
+                <p className="textoServicios textoCentrado">
                   Se suele definir a la psicología como el estudio de los
                   procesos mentales, las sensaciones, las percepciones y el
                   comportamiento de un sujeto, más específicamente sobre las
                   causas del mismo.
                   <br></br>
                   <p className="textoCentrado btnShow myButton">
-                    <AiFillCaretDown />
+                    <AiFillCaretDown className="btnC"/>
                   </p>
                 </p>
               </a>
@@ -98,7 +102,7 @@ const Servicios = () => {
                   id="multiCollapseExample1"
                 >
                   <div className="normalText">
-                    <p>
+                    <p className="textoServicios textoCentrado">
                       En nuestro espacio pensamos a la psicología desde lo
                       vincular. La psicología estudia la manera de vincularnos
                       con el otro. Se pretende crear un espacio donde los
@@ -106,7 +110,7 @@ const Servicios = () => {
                       todo lo que hay por desarrollar.{" "}
                     </p>
                     <br></br>
-                    <p>
+                    <p className="textoServicios">
                       Es un espacio de comunicación, de escucha, de mirada, de
                       contención y construcción de andamiajes, convirtiéndose
                       así en una plataforma de despliegue.
@@ -123,7 +127,7 @@ const Servicios = () => {
           <h3 className="textoCentrado">Psicopedagogía</h3>
           <br></br>
           <div className="textoServiciosDesktop">
-            <p>
+            <p className="textoServicios">
               La psicopedagogía se centra en el estudio de un sujeto en
               situación de aprendizaje, en cualquier etapa de la vida. Además
               del estudio de los procesos de desarrollo cognitivo (durante todas
@@ -133,7 +137,7 @@ const Servicios = () => {
               un individuo.
             </p>
             <br></br>
-            <p>
+            <p className="textoServicios">
               El proceso de aprendizaje definido en sentido amplio es aquel que
               incluye el conjunto de factores que inciden en las
               particularidades de la relación de un sujeto con el mundo cuando
@@ -148,14 +152,14 @@ const Servicios = () => {
           <div className="textoServiciosMobile">
             <p>
               <a
-                className="normalText"
+                className="normalText  textoServicios"
                 data-bs-toggle="collapse"
                 href="#multiCollapseExample2"
                 role="button"
                 aria-expanded="false"
                 aria-controls="multiCollapseExample1"
               >
-                <p>
+                <p className="textoServicios">
                   La psicopedagogía se centra en el estudio de un sujeto en
                   situación de aprendizaje, en cualquier etapa de la vida.
                   Además del estudio de los procesos de desarrollo cognitivo
@@ -165,7 +169,7 @@ const Servicios = () => {
                   dificultades de aprendizaje de un individuo
                   <br></br>
                   <p className="textoCentrado btnShow myButton">
-                    <AiFillCaretDown />
+                    <AiFillCaretDown  className="btnC" />
                   </p>
                 </p>
               </a>
@@ -177,7 +181,7 @@ const Servicios = () => {
                   id="multiCollapseExample2"
                 >
                   <div className="normalText">
-                    <p>
+                    <p className="textoServicios">
                       El proceso de aprendizaje definido en sentido amplio es
                       aquel que incluye el conjunto de factores que inciden en
                       las particularidades de la relación de un sujeto con el
@@ -194,10 +198,10 @@ const Servicios = () => {
             </div>
           </div>
         </div>
-        <img src={psicoPedago} alt="psico" className="fotos"></img>
+        <img src={psicoPedago} alt="psico" className="fotos" id="fotoA"></img>
       </div>
       <div className="textoImagenIzquierda">
-        <img src={terapiaOcu} alt="psico" className="fotos"></img>
+        <img src={terapiaOcu} alt="psico" className="fotos" id="tep"></img>
         <div className="textoTextoImagenIzquierda">
           <h3 className="textoCentrado">Terapia Ocupacional </h3>
           <br></br>
@@ -225,14 +229,14 @@ const Servicios = () => {
           <div className="textoServiciosMobile">
             <p>
               <a
-                className="normalText"
+                className="normalText  textoServicios"
                 data-bs-toggle="collapse"
                 href="#multiCollapseExample3"
                 role="button"
                 aria-expanded="false"
                 aria-controls="multiCollapseExample1"
               >
-                <p>
+                <p className="textoServicios textoCentrado">
                   Consiste en el uso terapéutico de las actividades de cuidado,
                   trabajo y juego para incrementar la independencia funcional y
                   prevenir la incapacidad; puede incluir la adaptación de tareas
@@ -240,7 +244,7 @@ const Servicios = () => {
                   la calidad de vida.
                   <br></br>
                   <p className="textoCentrado btnShow myButton">
-                    <AiFillCaretDown />
+                    <AiFillCaretDown  className="btnC"/>
                   </p>
                 </p>
               </a>
@@ -252,7 +256,7 @@ const Servicios = () => {
                   id="multiCollapseExample3"
                 >
                   <div className="normalText">
-                    <p>
+                    <p className="textoServicios textoCentrado">
                       Un profesional de terapia ocupacional trabaja con personas
                       de todas las edades y con una variedad de necesidades,
                       incluyendo personas con discapacidades físicas, mentales,
@@ -274,7 +278,7 @@ const Servicios = () => {
           <h3 className="textoCentrado">Musicoterapia</h3>
           <br></br>
           <div className="textoServiciosDesktop">
-            <p>
+            <p className="textoServicios">
               La musicoterapia es una disciplina de la salud que utiliza el
               recurso de la música y sus elementos (ritmo, melodía y armonia)
               para promover, prevenir y rehabilitar la salud. Esta tarea es
@@ -288,20 +292,20 @@ const Servicios = () => {
           <div className="textoServiciosMobile">
             <p>
               <a
-                className="normalText"
+                className="normalText  textoServicios"
                 data-bs-toggle="collapse"
                 href="#multiCollapseExample4"
                 role="button"
                 aria-expanded="false"
                 aria-controls="multiCollapseExample1"
               >
-                <p>
+                <p className="textoServicios">
                   La musicoterapia es una disciplina de la salud que utiliza el
                   recurso de la música y sus elementos (ritmo, melodía y
                   armonia) para promover, prevenir y rehabilitar la salud.
                   <br></br>
                   <p className="textoCentrado btnShow myButton">
-                    <AiFillCaretDown />
+                    <AiFillCaretDown className="btnC" />
                   </p>
                 </p>
               </a>
@@ -313,7 +317,7 @@ const Servicios = () => {
                   id="multiCollapseExample4"
                 >
                   <div className="normalText">
-                    <p>
+                    <p className="textoServicios">
                       Esta tarea es realizada por un musicoterapeuta calificado.
                       En ese proceso, el musicoterapeuta promueve y registra
                       cambios expresivos, receptivos y relacionales que dan
@@ -334,14 +338,14 @@ const Servicios = () => {
           <h3 className="textoCentrado">Orientacion a familias</h3>
           <br></br>
           <div className="textoServiciosDesktop">
-            <p>
+            <p className="textoServicios">
               Como parte sustancial de los tratamientos con niños, aparece el
               trabajo con sus familias. Se trabaja con padres, hermanos y otros
               familiares o colaboradores en pos de favorecer y acompañar el
               desarrollo de los chicos de la mejor manera.
             </p>
             <br></br>
-            <p>
+            <p className="textoServicios">
               Se busca favorecer espacios de intercambio y de contención siempre
               que se puede y el tratamiento o las familias lo requieren.{" "}
             </p>
@@ -357,21 +361,21 @@ const Servicios = () => {
           <div className="textoServiciosMobile">
             <p>
               <a
-                className="normalText"
+                className="normalText  textoServicios"
                 data-bs-toggle="collapse"
                 href="#multiCollapseExample5"
                 role="button"
                 aria-expanded="false"
                 aria-controls="multiCollapseExample1"
               >
-                <p>
+                <p className="textoServicios textoCentrado">
                   Como parte sustancial de los tratamientos con niños, aparece
                   el trabajo con sus familias. Se trabaja con padres, hermanos y
                   otros familiares o colaboradores en pos de favorecer y
                   acompañar el desarrollo de los chicos de la mejor manera.
                   <br></br>
                   <p className="textoCentrado btnShow myButton">
-                    <AiFillCaretDown />
+                    <AiFillCaretDown className="btnC"  />
                   </p>
                 </p>
               </a>
@@ -383,13 +387,13 @@ const Servicios = () => {
                   id="multiCollapseExample5"
                 >
                   <div className="normalText">
-                    <p>
+                    <p className="textoServicios textoCentrado">
                       Se busca favorecer espacios de intercambio y de contención
                       siempre que se puede y el tratamiento o las familias lo
                       requieren..{" "}
                     </p>
                     <br></br>
-                    <p>
+                    <p className="textoServicios textoCentrado">
                       A su vez, se realiza también un importante trabajo con las
                       diferentes instituciones educativas a las que los chicos
                       asisten ya que son una parte grande de su día a día y

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import quienessomos1 from "../img-logos/quienes-somos1.png";
 import quienessomos2 from "../img-logos/quienes-somos2.jpg";
 import quienessomos3 from "../img-logos/quienes-somos3.png";

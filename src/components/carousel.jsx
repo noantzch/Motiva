@@ -1,5 +1,4 @@
 import React from "react";
-import img1 from "./images/image2.png";
 import img2 from "./images/image3.png";
 import img3 from "./images/image4.png";
 import img4 from "./images/image5.png";
@@ -50,9 +49,6 @@ const CarouselMotiva = () => {
 
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="2000">
-            <img src={img1} className="d-block w-100" alt="..."></img>
-          </div>
-          <div className="carousel-item" data-bs-interval="2000">
             <img src={img2} className="d-block w-100" alt="..."></img>
           </div>
           <div className="carousel-item" data-bs-interval="2000">

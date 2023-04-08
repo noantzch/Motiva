@@ -55,7 +55,7 @@ const Contacto = () => {
           <h4 className="titulosActive">Por Whatsapp</h4>
           <br></br>
           <p className="textoCentrado">
-            Agenda el <strong>116865563</strong> a <br></br> tus contactos y
+            Agenda el <strong>1149459525</strong> a <br></br> tus contactos y
             chateá <br></br>con nosotras
           </p>
           <br></br>

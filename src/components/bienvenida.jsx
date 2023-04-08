@@ -5,7 +5,7 @@ import huella from "./images/huella.png";
 import psicologiaB from "./images/psicologiaB.png";
 import psicopedagogiaB from "./images/psicopedagogiaB.png";
 import terapiaB from "./images/terapiaB.png";
-import capacitacionesB from "./images/capacitacionesB.png";
+import capacitacionesB from "./images/capa.jpeg";
 import conejito from "./images/conejito.png";
 import comentario1 from "./images/comentarios/comentario1.png";
 import comentario2 from "./images/comentarios/comentario2.png";
@@ -44,7 +44,7 @@ export const Bienvenida = () => {
           un equipo interdisciplinario de profesionales con formación académica
           y en Terapias Asistidas con Perros. <br></br>
           <br></br>
-          Te invitamos a descubrir el espacio y cómo podemos ayudarte para que
+          Te invitamos a descubrir el espacio y cómo podemos ayudarte a
           mejorar tu calidad de vida y la de tus seres queridos.
         </p>
       </div>
@@ -160,7 +160,7 @@ export const Bienvenida = () => {
           <br></br>
           <img src={conejito} alt=".." id="conejito"></img>
         </div>
-        <img src={capacitacionesB} alt="..." className="fotos"></img>
+        <img src={capacitacionesB} alt="..." className="fotos" id="capaB"></img>
       </div>
 
       <div className="huellasBackground textoCentrado">
