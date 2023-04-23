@@ -87,7 +87,6 @@ body {
 }
 .footer-texto-div {
   display: flex;
-  margin-left: 320px;
   margin-top: 50px;
 }
 
@@ -134,7 +133,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 114px;
+  margin-right: 229px;
 }
 
 .footer-p {
@@ -502,6 +501,58 @@ body {
 
 /* medias q */
 
+@media screen and (max-width: 1200px) {
+  .div-footer-redes {
+    margin-right: 20px;
+  }
+  .div-foote {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-texto-div {
+    margin-right: 20px;
+  }
+
+  #navbarc {
+    width: 100%;
+  }
+  .img-1 {
+    width: 600px;
+    margin-left: 0;
+  }
+  .quienessomos-p {
+    max-height: 100%;
+    max-width: 400px;
+  }
+  .patita-qs {
+    margin-right: 0;
+    /* margin-left: -10px; */
+  }
+
+  .quienessomos2 {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    margin-left: 0;
+  }
+  .quienessomos2 img {
+    margin-left: 110px;
+  }
+
+  .quienessomos2 h2 {
+    text-align: center;
+    margin-left: -230px;
+    flex-grow: 1;
+  }
+  .img-d-c {
+    display: none;
+  }
+  .div-texto-img h2 {
+    margin-left: 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .footer-p img {
     display: inline-block;
@@ -757,7 +808,7 @@ body {
   }
 
   .preg-b {
-    width: 100vw;
+    width: 100%;
   }
 
   #navbarc {
@@ -808,6 +859,9 @@ body {
 
   .capacitaciones-texto-2-m span {
     color: #4c7a7c;
+  }
+  .preg-b {
+    width: 100%;
   }
 
   .capacitaciones-2 {
@@ -875,6 +929,9 @@ body {
   .div-texto-img img {
     width: 100px;
     margin: 0;
+  }
+  .preg-b {
+    width: 100%;
   }
 }
 
@@ -1456,30 +1513,29 @@ p {
     font-size: 22.4px !important;
   }
 }
-.textoServicios{
+.textoServicios {
   padding: 0px !important;
-  margin: 0px!important;
-
+  margin: 0px !important;
 }
-.btnC{
+.btnC {
   padding: 0 !important;
   margin: 0 !important;
 }
-.btnShow{
+.btnShow {
   padding: 0 !important;
   margin: 0 !important;
 }
-#fotoA{
+#fotoA {
   padding-top: 3.5em;
 }
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: #447070 !important;
 }
-#capaB{
+#capaB {
   width: 30em;
   border-radius: 10px;
 }
-#tep{
+#tep {
   width: 35em;
   border-radius: 30px;
   transform: translateY(-20px);
