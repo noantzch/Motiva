@@ -956,7 +956,7 @@ body {
 }
 
 .bienvenidaContainer {
-  padding: 3% 17.313% !important;
+  padding: 3% 11% !important;
 }
 @media (max-width: 768px) {
   .bienvenidaContainer {
@@ -969,6 +969,7 @@ body {
   padding: 0.6em !important;
 }
 .btn-primary {
+  margin-top: 3vw;
   background-color: #4c7a7c !important;
   border-color: #4c7a7c !important;
   --bs-btn-hover-bg: #3a5e60 !important;
@@ -979,9 +980,15 @@ body {
   font-family: "Poppins";
   font-size: 2.5em !important;
   font-weight: 900 !important;
-  line-height: 3.75em !important;
+  line-height: 2em !important;
   letter-spacing: 0em !important;
   text-align: center !important;
+}
+@media (max-width: 768px) {
+  .titulos1{
+    font-size: 2em !important;
+    line-height: 1.2em !important;
+  }
 }
 .bienvenidaTexto {
   font-family: Poppins !important;
@@ -995,9 +1002,11 @@ body {
 .textoImagenIzquierda {
   display: flex !important;
   flex-direction: row !important;
-  padding: 1em 6.78em !important;
   justify-content: center !important;
-  align-items: flex-end !important;
+  width: 100%;
+  padding-top: 5vw;
+  padding-bottom: 2vw;
+  align-items: center !important;
 }
 @media screen and (max-width: 900px) {
   .textoImagenIzquierda {
@@ -1009,8 +1018,8 @@ body {
 .textoTextoImagenIzquierda {
   display: flex !important;
   flex-direction: column !important;
-  padding: 0 3.75em !important;
-  width: 40em !important;
+  padding: 0 3vw;
+  width: 40vw !important;
   padding-top: 3em !important;
 }
 @media screen and (max-width: 900px) {
@@ -1035,14 +1044,8 @@ h3 {
     border-radius: 0 !important;
   }
 }
-#imgQuienes {
-  width: 38.938em !important;
-  height: 26.438em !important;
-  border-radius: 0.938em !important;
-  padding: 1em 0 !important;
-}
-.imgPerrito {
-  width: 7.25em !important;
+#imgQuiene{
+  margin-top: -4vw !important;
 }
 #perrito1 {
   margin-left: 20em !important;
@@ -1068,11 +1071,10 @@ h3 {
   flex-direction: row !important;
   justify-content: center !important;
   align-items: flex-start !important;
-  flex-wrap: wrap !important;
 }
 .cardContainer {
-  width: 19.64em !important;
-  margin: 2.68em !important;
+  width: auto !important;
+  margin: 2vw;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
@@ -1089,7 +1091,7 @@ h3 {
   }
 }
 .cardImageB {
-  width: 19.64em !important;
+  width: 25vw !important;
   padding-bottom: 1.813em !important;
 }
 .titulos3 {
@@ -1099,15 +1101,17 @@ h3 {
   max-width: 51.37em !important;
 }
 .textoImagenDerecha {
+  width: 100% !important;
+  padding-top: 5vw;
+  padding-bottom: 2vw;
+  align-items: center !important;
   display: flex !important;
   flex-direction: row !important;
-  margin: 6em !important;
   justify-content: center !important;
-  align-items: flex-start !important;
 }
 .textoTextoImagenDerecha {
-  width: 31.813em !important;
-  margin: 1.125em !important;
+  width: 40vw !important;
+  padding: 0 3vw;
 }
 @media screen and (max-width: 900px) {
   .textoImagenDerecha {
@@ -1146,7 +1150,8 @@ h3 {
   border: none !important;
 }
 .cardComentario {
-  width: 15.813em !important;
+  width: 15vw !important;
+  height: 16vw !important;
 }
 .huellasBackground {
   background-image: url("./components/images/huella.png") !important;
@@ -1245,10 +1250,25 @@ h3 {
 
 .ayudarte {
   color: black !important;
+  font-size: 2vw;
+}
+.ayudarte span{
+  font-size: 2vw;
+}
+@media (max-width: 768px) {
+  .ayudarte{
+    font-size: 5vw;
+  }
+  .ayudarte span{
+    font-size: 5vw;
+  }
 }
 .sobreElProceso {
   background-color: #89d0d4e5 !important;
   padding: 3em 0 !important;
+}
+.sobreElProceso p{
+  padding: 2% 20%;
 }
 .pasosDesktop {
   display: flex !important;
@@ -1356,9 +1376,7 @@ h3 {
     border-radius: 8px !important;
     width: 330px !important;
   }
-  .ayudarte {
-    padding: 1em 1em 2em 0em !important;
-  }
+  
 }
 .carousel-control-next-icon {
   filter: invert(1) !important;
@@ -1427,7 +1445,8 @@ h3 {
   justify-content: center !important;
 }
 p {
-  font-size: 1.1em !important;
+  font-size: 1.2vw !important;
+  margin-bottom: 0 !important;
 }
 @media screen and (max-width: 768px) {
   p {
@@ -1453,7 +1472,7 @@ p {
     align-items: center;
   }
   p {
-    font-size: 22.4px !important;
+    font-size: 3.5vw !important;
   }
 }
 .textoServicios{
@@ -1479,8 +1498,28 @@ p {
   width: 30em;
   border-radius: 10px;
 }
-#tep{
-  width: 35em;
-  border-radius: 30px;
-  transform: translateY(-20px);
+.fotos{
+  width: 40vw
+}
+@media (max-width: 768px) {
+  .fotos{
+    width: 85% !important;
+  }
+}
+h4{
+  font-weight: 900 !important;
+  font-size: 1.8vw !important;
+}
+@media (max-width: 768px) {
+  h4{
+    font-size: 4vw !important;
+  }
+}
+.imgPerrito{
+  width: 8vw !important;
+}
+@media (min-width: 768px) { 
+  .card33 div{
+    max-width: 26vw !important;
+  }
 }

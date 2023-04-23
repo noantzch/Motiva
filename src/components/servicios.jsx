@@ -7,7 +7,7 @@ import psico from "./images/psico.png";
 import psicoPedago from "./images/psicoPedago.png";
 import orientacion from "./images/orientacion.png";
 import musicoTerapia from "./images/musicoTerapia.png";
-import terapiaOcu from "./images/tep.jpeg";
+import terapiaOcu from "./images/tep.png";
 import { AiFillCaretDown } from "react-icons/ai";
 import perrito1 from "./images/perrito.png";
 
@@ -49,7 +49,7 @@ const Servicios = () => {
       <div className="textoImagenIzquierda">
         <img src={psico} alt="psico" className="fotos"></img>
         <div className="textoTextoImagenIzquierda">
-          <h3 className="textoCentrado">Psicología</h3>
+          <h4>Psicología</h4>
           <br></br>
 
           <div className="textoServiciosDesktop">
@@ -110,7 +110,7 @@ const Servicios = () => {
                       todo lo que hay por desarrollar.{" "}
                     </p>
                     <br></br>
-                    <p className="textoServicios">
+                    <p className="textoServicios textoCentrado">
                       Es un espacio de comunicación, de escucha, de mirada, de
                       contención y construcción de andamiajes, convirtiéndose
                       así en una plataforma de despliegue.
@@ -124,7 +124,7 @@ const Servicios = () => {
       </div>
       <div className="textoImagenDerecha">
         <div className="textoTextoImagenDerecha">
-          <h3 className="textoCentrado">Psicopedagogía</h3>
+          <h4>Psicopedagogía</h4>
           <br></br>
           <div className="textoServiciosDesktop">
             <p className="textoServicios">
@@ -198,12 +198,12 @@ const Servicios = () => {
             </div>
           </div>
         </div>
-        <img src={psicoPedago} alt="psico" className="fotos" id="fotoA"></img>
+        <img src={psicoPedago} alt="psico" className="fotos"></img>
       </div>
       <div className="textoImagenIzquierda">
         <img src={terapiaOcu} alt="psico" className="fotos" id="tep"></img>
         <div className="textoTextoImagenIzquierda">
-          <h3 className="textoCentrado">Terapia Ocupacional </h3>
+          <h4>Terapia Ocupacional </h4>
           <br></br>
           <div className="textoServiciosDesktop">
             <p>
@@ -275,7 +275,7 @@ const Servicios = () => {
       </div>
       <div className="textoImagenDerecha">
         <div className="textoTextoImagenDerecha">
-          <h3 className="textoCentrado">Musicoterapia</h3>
+          <h4>Musicoterapia</h4>
           <br></br>
           <div className="textoServiciosDesktop">
             <p className="textoServicios">
@@ -335,7 +335,7 @@ const Servicios = () => {
       <div className="textoImagenIzquierda">
         <img src={orientacion} alt="psico" className="fotos"></img>
         <div className="textoTextoImagenIzquierda">
-          <h3 className="textoCentrado">Orientacion a familias</h3>
+          <h4>Orientacion a familias</h4>
           <br></br>
           <div className="textoServiciosDesktop">
             <p className="textoServicios">
@@ -408,12 +408,14 @@ const Servicios = () => {
       </div>
       <br></br>
       <br></br>
+      <br></br>
+      <br></br>
       <div className="sobreElProceso">
         <div className="sobreElProcesoTitulos">
           <h3 className="textoCentrado">Sobre el proceso</h3>
           <br></br>
           <p className="textoCentrado">
-            Sabemos que las Terapias Asistidas con animales son nuevas en
+            Sabemos que las Terapias Asistidas con animales son relativamente nuevas en
             Argentina, así que te contamos en qué consisten los pasos luego de
             entrar en contacto:
           </p>
@@ -437,8 +439,11 @@ const Servicios = () => {
             <br></br>
             <p>
               En primer lugar realizaremos una entrevista para conocer la
-              situación y necesidades del paciente. <br></br>Esta entrevista es
+              situación y necesidades del paciente. <br></br>
+              <span style={{textDecoration: 'underline'}}>
+                Esta entrevista es
               gratuita
+                </span>
             </p>
           </div>
           <div className="textoPasos">
