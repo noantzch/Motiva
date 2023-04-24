@@ -7,6 +7,11 @@ import { Link } from "react-router-dom";
 import footerlogo from "../img-logos/footer-logo.png";
 
 const Footer = () => {
+
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <>
       <div className="div-footer">
@@ -17,19 +22,19 @@ const Footer = () => {
           <img className="footer-logo" src={footerlogo} alt="" />
         </div>
         <div className="footer-texto-div">
-          <Link className="footer-texto" to="/">
+          <Link onClick={handleClick} className="footer-texto" to="/">
             Home
           </Link>
-          <Link className="footer-texto" to="/quienes-somos">
+          <Link onClick={handleClick} className="footer-texto" to="/quienes-somos">
             Quienes somos
           </Link>
-          <Link className="footer-texto" to="/terapias">
+          <Link onClick={handleClick} className="footer-texto" to="/terapias">
             Servicios
           </Link>
-          <Link className="footer-texto" to="/capacitaciones">
+          <Link onClick={handleClick} className="footer-texto" to="/capacitaciones">
             Talleres y charlas
           </Link>
-          <Link className="footer-texto" to="/contacto">
+          <Link onClick={handleClick} className="footer-texto" to="/contacto">
             Contacto
           </Link>
         </div>

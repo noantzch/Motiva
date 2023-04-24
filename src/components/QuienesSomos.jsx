@@ -19,6 +19,11 @@ import { Link } from "react-router-dom";
 import ultimoimg from "../img-logos/quienes-somos-m.png";
 
 function QuienesSomos() {
+
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div>
       <div className="quienessomos1">
@@ -59,36 +64,43 @@ function QuienesSomos() {
       <div className="div-quienessomos-card">
         <div className="quienessomos-card">
           <img src={quienessomo4} alt="" />
-          <h3>
-            Jimena <span>Tarcetti</span>
-          </h3>
-          <p>Lic. en Psicopedagogía</p>
-          <p>
-            India y Shiva viven conmigo, son parte de mi familia; ambas fueron
-            formadas como perras de terapia y me acompañan al consultorio día a
-            día a trabajar con nuestros pacientes.
-            <br />
-            Siempre soñé con poder combinar la Psicopedagogía con los animales,
-            por lo que me considero muy afortunada de poder compartir con ellas
-            mi espacio de trabajo, sin dudas facilitan y habilitan nuevos
-            espacios en las intervenciones con los pacientes.
-          </p>
+          <h3>Jimena</h3>
+          <div className="div-card-qs">
+            <p className="qs-act-li">Lic. en Psicología</p>
+            <p className="qs-act">
+              Soy Licenciada en Psicopedagogía con formación en Terapia Asistida
+              con Perros, en TCC, en Psicopedagogía Clínica y Arteterapia.
+            </p>
+            <p>
+              India y Shiva viven conmigo, son parte de mi familia; Ambas fueron
+              formadas como perras de terapia y me acompañan al consultorio día
+              a día a trabajar con nuestros pacientes.Siempre soñé con poder
+              combinar la Psicopedagogía con los animales, por lo que me
+              considero muy afortunada de poder compartir con ellas mi espacio
+              de trabajo, sin dudas facilitan y habilitan nuevos espacios en las
+              intervenciones con los pacientes.
+            </p>
+          </div>
         </div>
         <div className="quienessomos-card">
           <img src={quienessomo5} alt="" />
-          <h3>
-            Rosario <span>Rico</span>
-          </h3>
-          <p>Lic. en Psicopedagogía y Psicología</p>
-          <p>
-            Otto y Enzo son mis mascotas, a quienes formé (y sigo formando) para
-            que me acompañen a trabajar con todos nuestros pacientes. Todo este
-            proceso de aprendizaje es basado en el respeto y en su bienestar.{" "}
-            <br />
-            Considero que es un gran privilegio poder tenerlos conmigo en mi
-            espacio de trabajo, sin duda facilitan las intervenciones con cada
-            paciente y hacen que cada sesión se vuelva única.
-          </p>
+          <h3>Rosario</h3>
+          <div className="div-card-qs">
+            <p className="qs-act-li">Lic. en Psicología y Psicopedagogía</p>
+            <p className="qs-act">
+              Soy licenciada en psicología y psicopedagogía con formación en
+              Terapia Asistida con Perros.
+            </p>
+            <p>
+              Otto y Enzo son mis mascotas, a quienes formé (y sigo formando)
+              para que me acompañen a trabajar con todos nuestros pacientes.
+              Todo este proceso de aprendizaje es basado en el respeto y en su
+              bienestar.Considero que es un gran privilegio poder tenerlos
+              conmigo en mi espacio de trabajo, sin duda facilitan las
+              intervenciones con cada paciente y hacen que cada sesión se vuelva
+              única.
+            </p>
+          </div>
         </div>
       </div>
       <div className="icon-quienes-somos">
@@ -113,52 +125,33 @@ function QuienesSomos() {
         </div>
       </div>
       <div className="div-texto-img">
-        <h2>Equipo animal</h2>
-        <img className="img-d-c" src={quienessomos7} alt="" />
+        <h2>Nuestro equipo Animal<img /* className="img-d-c" */ src={quienessomos7} alt="" /></h2>
+        
       </div>
       <div className="div-animales-desc">
         <div className="animales-desc">
           <img src={quienessomos8} alt="" />
           <h3>Porota</h3>
-          <div className="qs-desk">
-            <p>Ella es una Cabeza de leon.</p>
-          </div>
         </div>
         <div className="animales-desc">
           <img src={quienessomos9} alt="" />
-
           <h3>India</h3>
-          <div>
-            <p>Es una Pastor shetland.</p>
-          </div>
         </div>
         <div className="animales-desc">
           <img src={quienessomos10} alt="" />
           <h3>Shiva</h3>
-          <div>
-            <p>Es un Border Collie.</p>
-          </div>
         </div>
         <div className="animales-desc">
           <img src={quienessomos11} alt="" />
           <h3>Otto</h3>
-          <div>
-            <p>Es un Boyero de berna.</p>
-          </div>
         </div>
         <div className="animales-desc">
           <img src={quienessomos12} alt="" />
           <h3>Enzo</h3>
-          <div>
-            <p>Es un Boyero de berna.</p>
-          </div>
         </div>
         <div className="animales-desc">
           <img src={quienessomos13} alt="" />
           <h3>Mila</h3>
-          <div>
-            <p>Ella es una Golden retriever.</p>
-          </div>
         </div>
       </div>
       <div className="preguntas-frecuentes">
@@ -212,7 +205,7 @@ function QuienesSomos() {
         <img src={quienessomos15} alt="" />
         <h3>
           Ante cualquier consulta{" "}
-          <Link to={"/contacto"}>estamos acá para ayudarte</Link>
+          <Link to={"/contacto"} onClick={handleClick} >estamos acá para ayudarte</Link>
         </h3>
       </div>
       <div className="detalle-qs">

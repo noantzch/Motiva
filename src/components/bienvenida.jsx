@@ -17,6 +17,10 @@ import CarouselMotiva from "./carousel";
 import { useNavigate } from "react-router-dom";
 
 export const Bienvenida = () => {
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+  };
+
   const navigate = useNavigate();
   const navigateQuienesSomos = () => {
     navigate("/quienes-somos");
@@ -46,8 +50,8 @@ export const Bienvenida = () => {
           un equipo interdisciplinario de profesionales con formación académica
           y en Terapias Asistidas con Perros. <br></br>
           <br></br>
-          Te invitamos a descubrir el espacio y cómo podemos ayudarte a
-          mejorar tu calidad de vida y la de tus seres queridos.
+          Te invitamos a descubrir el espacio y cómo podemos ayudarte a mejorar
+          tu calidad de vida y la de tus seres queridos.
         </p>
       </div>
       <div className="textoImagenIzquierda">
@@ -57,15 +61,20 @@ export const Bienvenida = () => {
           id="imgQuiene"
           className="fotos"
         ></img>
-        <div className="textoTextoImagenIzquierda" >
+        <div className="textoTextoImagenIzquierda">
           <h3>Quienes Somos</h3>
           <br></br>
           <p>
-          Somos Rosario y Jimena, fundadoras y directoras del espacio de Motiva: un proyecto que nace de la necesidad de generar un enfoque distinto a las terapias tradicionales, logrando combinar las dos cosas que amamos: nuestra profesión con los animales.
+            Somos Rosario y Jimena, fundadoras y directoras del espacio de
+            Motiva: un proyecto que nace de la necesidad de generar un enfoque
+            distinto a las terapias tradicionales, logrando combinar las dos
+            cosas que amamos: nuestra profesión con los animales.
           </p>
-          <button className="btn btn-primary" onClick={navigateQuienesSomos}>
-            Leer más
-          </button>
+          <div onClick={handleClick}>
+            <button className="btn btn-primary" onClick={navigateQuienesSomos}>
+              Leer más
+            </button>
+          </div>
           <img
             src={perrito1}
             alt="perrito1"
@@ -166,7 +175,7 @@ export const Bienvenida = () => {
             Nos enorgullece haber podido ayudar a tantas personas a mejorar su
             calidad de vida
           </p>
-                <br></br>
+          <br></br>
           <div className="nuestrosPacientesCards cardsContainer">
             <div className="cardContainer">
               <img

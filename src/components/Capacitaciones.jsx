@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
-import capacitaciones1 from "../img-logos/capacitaciones1.jpg";
+import capacitaciones11 from "../img-logos/capacitaciones11.jpg";
+import capacitaciones1 from "../img-logos/capacitaciones-p1.png";
 import capacitaciones2 from "../img-logos/capacitaciones2.jpg";
 import capacitaciones3 from "../img-logos/capacitaciones3.jpg";
 import capacitaciones4 from "../img-logos/capacitaciones4.jpg";
@@ -33,6 +34,7 @@ function Capacitaciones() {
             src={capacitaciones1}
             alt="imagen de una sesión"
           />
+          <img className="img-cap-1" src={capacitaciones11} alt="" />
         </div>
       </div>
       <h2 className="capacitaciones-texto-2">

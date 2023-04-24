@@ -19,7 +19,7 @@ const Navbar2 = () => {
             </Navbar.Brand>
           </NavLink>
         </div>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav menuu" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav menuu" id="menupx" />
 
         <Navbar.Collapse id="responsive-navbar-nav menuu">
           <Nav id="nav-links">
