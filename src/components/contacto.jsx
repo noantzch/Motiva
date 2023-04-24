@@ -101,6 +101,9 @@ const Contacto = () => {
           <p className="titulosActive">@motiva.terapias</p>
         </div>
       </div>
+        <br></br>
+        <br></br>
+        <br></br>
     </div>
   );
 };

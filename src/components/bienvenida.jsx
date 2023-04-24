@@ -32,11 +32,13 @@ export const Bienvenida = () => {
     <div className="backgroundPrimary">
       <CarouselMotiva />
       <div className="bienvenidaContainer">
+        <br></br>
         <h2 className="titulos1">
           {" "}
           <img src={huella} alt="huella"></img> Te damos la bienvenida a{" "}
           <span className="titulosActive">Motiva</span>
         </h2>
+        <br></br>
         <p className="bienvenidaTexto">
           Luego de haber formado parte del equipo de ETAP por varios años,
           pionero en las Terapias Asistidas en nuestro país, hoy les damos la
@@ -55,18 +57,11 @@ export const Bienvenida = () => {
           id="imgQuiene"
           className="fotos"
         ></img>
-        <div className="textoTextoImagenIzquierda">
+        <div className="textoTextoImagenIzquierda" >
           <h3>Quienes Somos</h3>
           <br></br>
-          <p className="quienestexto">
-            Somos Rosario y Jimena, fundadoras y directoras del espacio de
-            Motiva: <br></br>
-          </p>
           <p>
-            {" "}
-            Un proyecto que nace de la necesidad de generar un enfoque distinto
-            a las terapias tradicionales, logrando combinar las dos cosas que
-            amamos: nuestra profesión con los animales.
+          Somos Rosario y Jimena, fundadoras y directoras del espacio de Motiva: un proyecto que nace de la necesidad de generar un enfoque distinto a las terapias tradicionales, logrando combinar las dos cosas que amamos: nuestra profesión con los animales.
           </p>
           <button className="btn btn-primary" onClick={navigateQuienesSomos}>
             Leer más
@@ -84,7 +79,7 @@ export const Bienvenida = () => {
           Nuestras <span className="titulosActive">Terapias</span>{" "}
         </h2>
 
-        <div className="cardsContainer">
+        <div className="cardsContainer card33">
           <div className="cardContainer">
             <img
               src={psicologiaB}
@@ -165,12 +160,13 @@ export const Bienvenida = () => {
 
       <div className="huellasBackground textoCentrado">
         <div className="nuestrosPacientesDicenB">
-          <h3>Nuestros pacientes dicen...</h3>
+          <h3>La familia de nuestros pacientes dicen....</h3>
+          <br></br>
           <p>
             Nos enorgullece haber podido ayudar a tantas personas a mejorar su
             calidad de vida
           </p>
-
+                <br></br>
           <div className="nuestrosPacientesCards cardsContainer">
             <div className="cardContainer">
               <img
@@ -193,7 +189,7 @@ export const Bienvenida = () => {
                 alt="..."
               ></img>
             </div>
-            <div className="card">
+            <div className="cardContainer">
               <img
                 src={comentario4}
                 className="card-img-top cardComentario"
