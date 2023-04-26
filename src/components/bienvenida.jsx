@@ -136,7 +136,7 @@ export const Bienvenida = () => {
 
         <button
           className="btn btn-primary textoCentrado "
-          onClick={navigateServicios}
+          onClick={ () => {navigateServicios(); handleClick();}}
         >
           Conocer más
         </button>
@@ -156,7 +156,7 @@ export const Bienvenida = () => {
           <br></br>
           <button
             className="btn btn-primary textoCentrado "
-            onClick={navigateCapacitaciones}
+            onClick={ () => {navigateCapacitaciones(); handleClick();}}
           >
             Conocer más
           </button>
