@@ -88,7 +88,7 @@ export const Bienvenida = () => {
         <h2 className="titulos1">
           Nuestras <span className="titulosActive">Terapias</span>{" "}
         </h2>
-
+        <br></br>
         <div className="cardsContainer card33">
           <div className="cardContainer">
             <img
