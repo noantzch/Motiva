@@ -3,8 +3,6 @@ body {
 }
 
 
-
-
 #navbarc {
   background: #f7ffff;
   box-shadow: 0px 4px 4px rgba(111, 111, 111, 0.25);
@@ -295,6 +293,15 @@ body {
   display: none;
 }
 
+.patita-qs{
+  margin-left: 30px;
+}
+
+.img-1{
+  width: 50vw;
+  margin-right: 30px;
+}
+
 .quienessomos1 {
   display: flex;
   justify-content: center;
@@ -553,7 +560,7 @@ body {
     width: 100%;
   }
   .img-1 {
-    width: 600px;
+    width: 46vw;
     margin-left: 0;
   }
   .quienessomos-p {
@@ -613,11 +620,42 @@ body {
   }
 }
 
-@media screen and (max-width: 1198px) {
-  .nav-logo-link a{
-    font-size: 13px ;
+@media screen and (max-width: 1216px){
+  .footer-texto-div{
+    width: 100%;
+    margin-left: -20px;
   }
 }
+
+@media screen and (max-width: 1198px) {
+  .nav-logo-link a{
+    font-size: 14px ;
+  }
+
+  #div-nav {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+  }
+
+  #nav-links{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+}
+
+
+@media screen and (max-width: 1102px) {
+  .footer-texto-div{
+    width: 100%;
+    margin-left: -50px;
+  }
+  .div-footer-redes{
+    margin-right: 50px;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .footer-p img {
