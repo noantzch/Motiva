@@ -83,6 +83,7 @@ export const Bienvenida = () => {
           ></img>
         </div>
       </div>
+      <br></br>
       <div className="nuestrasterapiasBienvenida">
         <h2 className="titulos1">
           Nuestras <span className="titulosActive">Terapias</span>{" "}
