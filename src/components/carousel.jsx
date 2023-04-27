@@ -4,7 +4,6 @@ import img3 from "./images/image7.png";
 import img4 from "./images/image5.png";
 import img5 from "./images/image2.png";
 import img6 from "./images/image6.png";
-import img7 from "./images/image7.png";
 const CarouselMotiva = () => {
   return (
     <div className="portadaContainer">
@@ -46,12 +45,6 @@ const CarouselMotiva = () => {
             data-bs-slide-to="4"
             aria-label="Slide 5"
           ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="5"
-            aria-label="Slide 6"
-          ></button>
         </div>
 
         <div className="carousel-inner">
@@ -69,9 +62,6 @@ const CarouselMotiva = () => {
           </div>
           <div className="carousel-item" data-bs-interval="2000">
             <img src={img6} className="d-block w-100 imgCaro" alt="..."></img>
-          </div>
-          <div className="carousel-item" data-bs-interval="2000">
-            <img src={img7} className="d-block w-100 imgCaro" alt="..."></img>
           </div>
         </div>
         <button
