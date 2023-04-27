@@ -66,7 +66,7 @@ function QuienesSomos() {
           <img src={quienessomo4} alt="" />
           <h3>Jimena</h3>
           <div className="div-card-qs">
-            <p className="qs-act-li">Lic. en Psicología</p>
+            <p className="qs-act-li">Lic. en Psicopedagogía</p>
             <p className="qs-act">
               Soy Licenciada en Psicopedagogía con formación en Terapia Asistida
               con Perros, en TCC, en Psicopedagogía Clínica y Arteterapia.
